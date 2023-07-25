@@ -1,16 +1,15 @@
-<h1>My Crazy Website</h1>
-<p>woahzasr</p>
-<p>This is crazy</p>
-<p>This is crazy</p>
-<p>This is crazy</p>
-<p>This is crazy</p>
-<p>This is not crazy</p>
-<p>This is crazy</p>
-<p>This is crazy</p>
-<p>This is supa crazy</p>
-<p>This is crazy</p>
-<p>This is crazy</p>
-<p>This is crazy</p>
-<h3>This crazy</h3>
-<p>This is crazy</p>
-<p>This is crazy</p>
+<div>
+    <h1>Welcome To My Sweet As Website</h1>
+
+    <ul>
+        <li>Awesomeness</li>
+        <li>Super Awesomeness</li>
+        <li>Excellentness</li>
+        <li>Amazingness</li>
+    </ul>
+
+    <img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00600259_vpf1m0.jpg" alt="Epic Horse" width="1850"/>
+    <br/>
+    <a href="https://youtube.com/craftymcfish" target="_blank">Lets go on an adventure!</a>
+
+</div>
