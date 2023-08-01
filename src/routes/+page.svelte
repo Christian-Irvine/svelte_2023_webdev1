@@ -16,7 +16,7 @@
     h3 {
         margin: 0;
         text-align: center; 
-        color: -webkit-linear-gradient(magenta, brown);
+        color: purple;
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 56px;
     }
@@ -80,13 +80,13 @@
 
 </style>
 
+<!-- The HTML begins here -->
+
 <header>
     <h1>Welcome To My Sweet As Website</h1>
 </header>
 
 <div>
-    
-
     <ul>
         <li>Awesomeness</li>
         <li>Super Awesomeness</li>
@@ -96,7 +96,7 @@
 
     <a href="https://www.james.com" target="_blank"><button type="button" name ="James The Button"> Yo i'm James the button</button></a>
 
-    <a href="https://www.horse.com" target="_blank"><img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00600259_vpf1m0.jpg" alt="Epic Horse" width="1850px" height ="650px"/></a>
+    <a href="patriarchy" target="_blank"><img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00600259_vpf1m0.jpg" alt="Epic Horse" width="1850px" height ="650px"/></a>
 
     <h3>Yo look at this video</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ekBDeKwy86I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
