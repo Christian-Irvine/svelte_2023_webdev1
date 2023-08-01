@@ -1,11 +1,12 @@
 <style>
     :global(body) {
         margin: 0;
-        background-color: antiquewhite;
+        background-color: rgb(216, 203, 212);
     }
 
     .main{
-
+        background-color: rgb(216, 203, 212);
+        padding-left: 12%;
     }
 
 
@@ -21,12 +22,8 @@
 <Header />
 
 <div class="main">
-    <ul>
-        <li>Horses</li>
-        <li>Cowboys</li>
-        <li>Yeehaw</li>
-    </ul>
 
+    <p>hello</p>
     
 
 

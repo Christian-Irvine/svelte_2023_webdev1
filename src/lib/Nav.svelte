@@ -1,24 +1,31 @@
 <style>
     button {
-            background-color: rgb(255, 205, 255);
-            color: black;
-            font-family: "Bahnschrift", Helvetica, sans-serif;
-            border: 2px solid rgb(185, 100, 185);
-        }
+        text-align: center;
+        background-color: rgb(246, 122, 246);
+        color: white;
+        font-family: "Bahnschrift", Helvetica, sans-serif;
+        font-size: 40px;
+        border: 0;
+        height: 100px;
+        width: 180px;
+    }
 
     button:hover {
-        background-color: rgb(209, 137, 209);
-        border: 2px solid rgb(160, 79, 160);
+        background-color: rgb(255, 205, 255);
+        border: 0;;
+    }
+
+    .right{
+        text-align: right;
+        float: right;
     }
 
 </style>
 
-<nav>
-    
-    <a href="https://google.com" target="_blank"><button type="button" name ="Google">Google</button></a>
-    <a href="https://google.com" target="_blank"><button type="button" name ="Google">Not Google</button></a>
-    <a href="https://google.com" target="_blank"><button type="button" name ="Google">Definitely Not Google</button></a>
-    <a href="https://google.com" target="_blank"><button type="button" name ="Google">Yeah This Ones Goodge</button></a>
-
+<nav class="right">
+    <a href="/" class="right"><button>Home</button></a>
+    <a href="https://google.com" target="_blank" class="right"><button>Google</button></a>
+    <a href="https://google.com" target="_blank" class="right"><button>Google</button></a>
+    <a href="https://google.com" target="_blank" class="right"><button>Goodge</button></a>
 </nav>
 

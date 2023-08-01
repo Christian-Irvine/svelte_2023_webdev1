@@ -4,21 +4,33 @@
 
 <style>
     header {
-        background-color: rgb(255, 170, 255);
-        height: 170px;
+        background-color: rgb(246, 122, 246);
+        height: 100px;
     }
 
     h1 {
         text-align: left; 
-        color: antiquewhite;
+        color: white;
         font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 120px;
+        font-size: 85px;
         margin: 0;
+    }
+
+    .title{
+        width: 50%;
+        float: left;
+    }
+
+    .nav{
+        width: 50%;
+        float: right;
     }
 
 </style>
 
 <header>
-    <h1>Epic title</h1>
-    <Nav/>
+    <div class="title"><h1>Patriarchy</h1></div>
+    <div class="nav"><Nav/></div>
+    
+    
 </header>
