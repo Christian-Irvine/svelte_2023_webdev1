@@ -4,7 +4,9 @@
         background-color: antiquewhite;
     }
 
-
+    .main{
+        
+    }
 
 </style>
 
@@ -15,7 +17,7 @@
 
 <Header />
 
-<div>
+<div class="main">
     <ul>
         <li>Horses</li>
         <li>Cowboys</li>

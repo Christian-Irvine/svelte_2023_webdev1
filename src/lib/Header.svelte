@@ -5,6 +5,7 @@
 <style>
     header {
         background-color: rgb(255, 170, 255);
+        height: 170px;
     }
 
     h1 {
