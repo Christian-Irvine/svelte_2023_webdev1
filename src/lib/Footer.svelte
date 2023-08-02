@@ -5,7 +5,8 @@
 <style>
     footer {
         background-color: rgb(246, 122, 246);
-        height: 50px;
+        height: 65px;
+        margin-top: 40px;
     }
 
 </style>

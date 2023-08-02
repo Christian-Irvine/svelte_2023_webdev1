@@ -23,7 +23,7 @@
 </style>
 
 <nav class="right">
-    <a href="/" class="right"><button>Home</button></a>
+    <a href="/" class="right.right"><button>Home</button></a>
     <a href="https://google.com" target="_blank" class="right"><button>Google</button></a>
     <a href="https://google.com" target="_blank" class="right"><button>Google</button></a>
     <a href="https://google.com" target="_blank" class="right"><button>Goodge</button></a>

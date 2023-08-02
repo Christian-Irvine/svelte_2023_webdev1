@@ -6,6 +6,7 @@
     header {
         background-color: rgb(246, 122, 246);
         height: 100px;
+        margin-bottom: 40px;
     }
 
     h1 {
@@ -14,6 +15,7 @@
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 85px;
         margin: 0;
+        margin-left: 10px;
     }
 
     .title{

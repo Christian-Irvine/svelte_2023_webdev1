@@ -7,10 +7,53 @@
     .main{
         background-color: rgb(216, 203, 212);
         padding-left: 12%;
+        padding-right: 12%;
     }
 
+    .imgLeft{
+        text-align: left;
+    }
 
+    .imgRight{
+        text-align: right;
+    }
 
+    .textLeft{
+        float: left;
+        text-align: right;
+        margin-block-end: 0;
+        max-width: 40%;
+    }
+
+    .textRight{
+        float: right;
+        text-align: left;
+        max-width: 38%;
+        margin: 0;
+    }
+
+    h2{
+        color: black;
+        font-family: "Bahnschrift", Helvetica, sans-serif;
+        font-size: 45px;
+        margin-bottom: 0;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    img{
+        width:55%;
+        border: 6px;
+        border-style: outset;
+        border-color: rgb(246, 122, 246);
+    }
+
+    p{
+        text-align: left; 
+        color: black;
+        font-family: "Bahnschrift", Helvetica, sans-serif;
+        font-size: 25px;
+    }
 </style>
 
 <script>
@@ -23,11 +66,30 @@
 
 <div class="main">
 
-    <p>hello</p>
+    <div class="imgLeft">
+        <h2>Patriarchy On The Move</h2>
+        <img src="horses_gallop.webp" alt="patriarchy while running">
+        <p class="textRight">These horses are beautiful, look how they gallop! All while commencing patriarchy simultainously</p>
+    </div>
+
+    <div class="imgRight">
+        <h2>Patriarchy On The Spot</h2>
+        <img src="horse_eat_grass.webp" alt="Patriarchy standing around">
+        <p class="textLeft">See these horses as they graze the field in the name of patriarchy!</p>
+    </div>
     
+    <div class="imgLeft">
+        <h2>A Herd Of Patriarchy</h2>
+        <img src="horse_field.jpg" alt="Patriarchy on a field">
+        <p class="textRight">This massive herd of patriarchy is spreading it through the world!</p>
+    </div>
 
+    <div class="imgRight">
+        <h2>Patriarchy On The Beach</h2>
+        <img src="horse_ocean.jpg" alt="Patriarchy by the sea">
+        <p class="textLeft">These horses are trying to spread patriarchy to the seas. It is a shame that nobody there wasnts to listen.</p>
+    </div>
 
-        
 
 </div>
 
