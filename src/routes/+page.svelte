@@ -96,7 +96,7 @@
 
     <a href="https://www.james.com" target="_blank"><button type="button" name ="James The Button"> Yo i'm James the button</button></a>
 
-    <a href="patriarchy" target="_blank"><img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00600259_vpf1m0.jpg" alt="Epic Horse" width="1850px" height ="650px"/></a>
+    <a href="horses"><img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00600259_vpf1m0.jpg" alt="Epic Horse" width="1850px" height ="650px"/></a>
 
     <h3>Yo look at this video</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ekBDeKwy86I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

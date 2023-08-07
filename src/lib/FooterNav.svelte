@@ -24,7 +24,7 @@
 
 <nav class="right">
     <a href="https://creations.mattel.com/products/barbie-the-movie-i-am-kenough-unisex-hoodie-hyn77" target="_blank" class="right"><button>I Am Kenough</button></a>
-    <a href="https://en.wikipedia.org/wiki/Horse" target="_blank" class="right"><button>Patriarchy</button></a>
+    <a href="https://en.wikipedia.org/wiki/Horse" target="_blank" class="right"><button>Horses</button></a>
     <a href="https://google.com" target="_blank" class="right"><button>Google</button></a>
     <a href="/" class="right"><button>Back</button></a>
 </nav>

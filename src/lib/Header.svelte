@@ -31,7 +31,7 @@
 </style>
 
 <header>
-    <div class="title"><h1>Patriarchy</h1></div>
+    <div class="title"><h1>Horses</h1></div>
     <div class="nav"><Nav/></div>
     
     
