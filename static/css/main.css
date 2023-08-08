@@ -1,11 +1,11 @@
 
     body {
         margin: 0;
-        background-color: rgb(241, 224, 237);
+        background-color: rgb(241, 219, 205);
     }
 
     .main{
-        background-color: rgb(241, 224, 237);
+        background-color: rgb(241, 219, 205);
         padding-left: 12%;
         padding-right: 12%;
     }
@@ -79,7 +79,7 @@
     }
 
 
-    
+
     .rightSide{
         text-align: right;
         float: right;
@@ -109,9 +109,9 @@
 
     img{
         width:55%;
-        border: 6px;
+        border: 12px;
         border-style: outset;
-        border-color: rgb(246, 122, 246);
+        border-color: orange;
     }
 
 
