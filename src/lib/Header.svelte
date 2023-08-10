@@ -4,5 +4,5 @@
 
 <header>
     <div class="title"><h1>ME</h1></div>
-    <div class="nav"><Nav/></div>
+    <Nav/>
 </header>
