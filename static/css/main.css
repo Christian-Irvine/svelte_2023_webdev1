@@ -1,43 +1,67 @@
+    * {
+        box-sizing: border-box;
+    }
 
     body {
         margin: 0;
-        background-color: rgb(224, 255, 245);
+        background-color: rgb(231, 249, 255);
     }
 
-    .main{
+    .main {
         padding-left: 12%;
         padding-right: 12%;
+    }
+
+    .border {
+        border: 12px;
+        border-style: outset;
+        border-color: rgb(29, 202, 208);
+    }
+
+    .youtube {
+        aspect-ratio: 16 / 9
     }
 
     h1 {
         text-align: left; 
         color: white;
-        font-family: "Bahnschrift";
+        font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 85px;
         margin: 0;
-        margin-left: 10px;
     }
 
-    h2{
+    h2 {
         color: black;
-        font-family: "Bahnschrift";
-        font-size: 45px;
+        font-family: "Bahnschrift", Helvetica, sans-serif;
+        font-size: 55px;
         margin-bottom: 0;
-        padding:0 20px;
     }
 
-    p{
+    h3 {
+        color: black;
+        font-family: "Bahnschrift", Helvetica, sans-serif;
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+
+    p {
         text-align: left; 
         color: black;
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 25px;
+        margin: 0;
     }
 
-    img{
+    li {
+        text-align: left; 
+        color: black;
+        font-family: "Bahnschrift", Helvetica, sans-serif;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    img {
         width:55%;
-        border: 12px;
-        border-style: outset;
-        border-color: rgb(29, 202, 208);
     }
 
     footer {
@@ -45,10 +69,6 @@
         height: 65px;
         margin-top: 40px;
     }
-
-
-
-
 
     header {
         background-color: rgb(29, 202, 208);
@@ -72,12 +92,4 @@
     button:hover {
         background-color: rgb(56, 143, 146);
         border: 0;
-    }
-
-    .title {
-        align-self: left;
-    }
-
-    nav {
-        align-self: right;
     }
