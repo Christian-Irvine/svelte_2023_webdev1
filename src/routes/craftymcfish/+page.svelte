@@ -3,8 +3,19 @@
 
     <div>
         <div>
-            <p>CraftyMCFish is the main username I use online.</p>
-            <p>Publically it is mainly the name my <a href="https://www.youtube.com/@CraftyMCFish" target="_blank">Youtube channel</a> is under</p>
+            <h3>Origins</h3>
+            <p>
+                The name CraftyMCFish originated on 2016. I wanted to change my username to 'MCFish' however,
+                that name was already taken so I decided to take the 'Crafty' part of my old username and slap it on the front to form 'CraftyMCFish'.
+            </p>
+        </div>
+
+        <div>
+            <p>
+                The channel was founded on the 7th Febuary 2017. At the beggining the videos consisted of animations made in Mine-Imator every week.
+                These videos were rather short, only being around 30 seconds long. I would spend about 3 hours on each video sometimes a little longer sometimes a little shorter.
+                Slowly over the few months of making them the quality began to improve. Though it wasn't long before I stopped.
+            </p>
         </div>
 
         <div>
@@ -27,27 +38,17 @@
         <iframe class="youtube" width="100%" src="https://www.youtube.com/embed/ekBDeKwy86I" title="My Awesome Channel Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
-    <div>
-        <p>
-            The channel was founded on the 7th Febuary 2017. At the beggining the videos consisted of animations made in Mine-Imator every week.
-            These videos were rather short, only being around 30 seconds long. I would spend about 3 hours on each video sometimes a little longer sometimes a little shorter.
-            Slowly over the few months of making them the quality began to improve. Though it wasn't long before I stopped.
-        </p>
-    </div>
+
 
     <div>
         <h3>My Most Viewed Video</h3>
         <iframe class="youtube" width="100%" src="https://www.youtube.com/embed/D1T1btH7QH4" title="My Most Viewed Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
-    <div>
-        <p>
-            The name CraftyMCFish originated on 2016. I wanted to change my username to 'MCFish' however,
-            that name was already taken so I decided to take the 'Crafty' part of my old username and slap it on the front to form 'CraftyMCFish'.
-        </p>
-    </div>
+
 
     <div>
+        <h3>AncientCraft</h3>
         <p>
             After the animations I moved onto making Minecraft Lets Plays on the server I was currently on called "AncientCraft".
             My fellow players had suggested the idea to me and lots of them I still know today.
@@ -55,8 +56,18 @@
     </div>
     
     <div>
+        <h3>My Own Server</h3>
         <p>
             At one point I started my own Minecraft Server called "FishMC" (yes I know how original) and it is still going to this day! Though I did pass it on to some of the players,
             but they have kept it alive this whole time.
+        </p>
+    </div>
+
+    <div>
+        <h3>OmathaCraft</h3>
+        <p>
+            Eventually AncientCrafts time came to an end, but a few people were invited to another server called OmathaCraft (me included). 
+            The most notable thing I did on there was digging a big hole
+        </p>
     </div>
 </div>
