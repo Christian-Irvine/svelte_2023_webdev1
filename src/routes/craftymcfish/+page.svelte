@@ -42,7 +42,7 @@
 
     <div>
         <h3>My Most Viewed Video</h3>
-        <iframe class="youtube" width="100%" src="https://www.youtube.com/embed/D1T1btH7QH4" title="My Most Viewed Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="youtube" width="100%" src="https://www.youtube.com/embed/k12yrsRZdE8?si=81muJQaTa1_aZDpT" title="My Most Viewed Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
 
@@ -67,7 +67,7 @@
         <h3>OmathaCraft</h3>
         <p>
             Eventually AncientCrafts time came to an end, but a few people were invited to another server called OmathaCraft (me included). 
-            The most notable thing I did on there was digging a big hole
+            The most notable thing I did on there was digging a big hole documented by the video titled <a href="https://www.youtube.com/watch?v=ekBDeKwy86I" target=_blank>"i dug a hole"</a> above.
         </p>
     </div>
 </div>

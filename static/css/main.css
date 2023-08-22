@@ -8,8 +8,7 @@
     }
 
     .main {
-        padding-left: 12%;
-        padding-right: 12%;
+        padding: 0px 150px;
     }
 
     .border {
@@ -19,7 +18,7 @@
     }
 
     .youtube {
-        aspect-ratio: 16 / 9
+        aspect-ratio: 16 / 9;
     }
 
     h1 {
@@ -70,15 +69,21 @@
         margin-top: 40px;
     }
 
+    nav {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
     header {
         background-color: rgb(29, 202, 208);
         height: 100px;
         margin-bottom: 40px;
         display: flex;
         flex-wrap: nowrap;
+        justify-content: space-between;
     }
 
-    .buttonHeader {
+    header button {
         text-align: center;
         background-color: rgb(29, 202, 208);
         color: white;
@@ -89,7 +94,7 @@
         width: 180px;
     }
 
-    button:hover {
+    header button:hover {
         background-color: rgb(56, 143, 146);
         border: 0;
     }
