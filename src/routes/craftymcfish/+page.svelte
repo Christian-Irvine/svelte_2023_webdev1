@@ -67,7 +67,16 @@
         <h3>OmathaCraft</h3>
         <p>
             Eventually AncientCrafts time came to an end, but a few people were invited to another server called OmathaCraft (me included). 
-            The most notable thing I did on there was digging a big hole documented by the video titled <a href="https://www.youtube.com/watch?v=ekBDeKwy86I" target=_blank>"i dug a hole"</a> above.
+            The most notable thing I did on there was digging a big hole documented by the video titled "<a href="https://www.youtube.com/watch?v=ekBDeKwy86I" target=_blank>i dug a hole</a>" above.
+        </p>
+    </div>
+
+    <div>
+        <h3>100 Days</h3>
+        <p>
+            In 2023 I made a return to the CraftyMCFish Youtube channel, 
+            with the hit series the "<a href="https://www.youtube.com/watch?v=p1aKW023sKM&list=PLJiD2nL032wbtGfSCod_0SiyJ3EVBRHPe">100 Days Challenge</a>". It is by far my most popular series yet,
+            and the channel has had massive growth since the beggining of it.
         </p>
     </div>
 </div>

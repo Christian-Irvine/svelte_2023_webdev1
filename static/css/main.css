@@ -21,6 +21,10 @@
         aspect-ratio: 16 / 9;
     }
 
+    .title {
+        margin-left: 16px;
+    }
+
     h1 {
         text-align: left; 
         color: white;
@@ -88,7 +92,7 @@
         background-color: rgb(29, 202, 208);
         color: white;
         font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 40px;
+        font-size: 2.5rem;
         border: 0;
         height: 100px;
         width: 180px;
@@ -97,4 +101,8 @@
     header button:hover {
         background-color: rgb(56, 143, 146);
         border: 0;
+    }
+
+    button:hover{
+        cursor: pointer;
     }
