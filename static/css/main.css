@@ -39,11 +39,11 @@
     }
 
     .gallery > div:nth-of-type(even) div * {
-        text-align: right;
+        text-align: left;
     }
 
     .gallery > div:nth-of-type(odd) div * {
-        text-align: left;
+        text-align: right;
     }
 
     .gallery > div:nth-of-type(odd) div :nth-child(2) {
@@ -52,6 +52,11 @@
 
     .gallery > * img {
         width: 100%;
+    }
+
+    .gallery > * p {
+        font-size:  32px;
+        padding: 0px 50px;
     }
 
     h1 {
@@ -80,7 +85,7 @@
         text-align: left; 
         color: black;
         font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 25px;
+        font-size: 27px;
         margin: 0;
     }
 
