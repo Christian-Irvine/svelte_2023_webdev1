@@ -1,36 +1,35 @@
 <div>
-    <h2>CraftyMCFish</h2>
+    <h1>CraftyMCFish</h1>
 
     <div>
-        <div>
-            <h3>Origins</h3>
-            <p>
-                The name CraftyMCFish originated on 2016. I wanted to change my username to 'MCFish' however,
-                that name was already taken so I decided to take the 'Crafty' part of my old username and slap it on the front to form 'CraftyMCFish'.
-            </p>
-        </div>
+        <h3>Origins</h3>
+        <p>
+            The name CraftyMCFish originated on 2016. I wanted to change my username to 'MCFish' however,
+            that name was already taken so I decided to take the 'Crafty' part of my old username and slap it on the front to form 'CraftyMCFish'.
+        </p>
+    </div>
 
-        <div>
-            <p>
-                The channel was founded on the 7th Febuary 2017. At the beggining the videos consisted of animations made in Mine-Imator every week.
-                These videos were rather short, only being around 30 seconds long. I would spend about 3 hours on each video sometimes a little longer sometimes a little shorter.
-                Slowly over the few months of making them the quality began to improve. Though it wasn't long before I stopped.
-            </p>
-        </div>
+    <div>
+        <p>
+            The channel was founded on the 7th Febuary 2017. At the beggining the videos consisted of animations made in Mine-Imator every week.
+            These videos were rather short, only being around 30 seconds long. I would spend about 3 hours on each video sometimes a little longer sometimes a little shorter.
+            Slowly over the few months of making them the quality began to improve. Though it wasn't long before I stopped.
+        </p>
+    </div>
 
-        <div>
+    <div>
         <h3>Places The Name CraftyMCFish Is Used</h3>
-            <ul>
-                <li>Youtube</li>
-                <li>Discord</li>
-                <li>Steam</li>
-                <li>X</li>
-                <li>Epic Games</li>
-                <li>Roblox</li>
-                <li>Microsoft</li>
-                <li>Reddit</li>
-            </ul>
-        </div>
+        <ul>
+            <li>Youtube</li>
+            <li>Discord</li>
+            <li>Steam</li>
+            <li>X</li>
+            <li>Epic Games</li>
+            <li>Roblox</li>
+            <li>Microsoft</li>
+            <li>Reddit</li>
+            <li>Tik Tok (ew)</li>
+        </ul>
     </div>
 
     <div>
@@ -67,7 +66,7 @@
         <h3>OmathaCraft</h3>
         <p>
             Eventually AncientCrafts time came to an end, but a few people were invited to another server called OmathaCraft (me included). 
-            The most notable thing I did on there was digging a big hole documented by the video titled "<a href="https://www.youtube.com/watch?v=ekBDeKwy86I" target=_blank>i dug a hole</a>" above.
+            The most notable thing I did on there was digging a big hole documented by the video titled "<a href="https://www.youtube.com/watch?v=ekBDeKwy86I">i dug a hole</a>" above.
         </p>
     </div>
 
@@ -77,6 +76,15 @@
             In 2023 I made a return to the CraftyMCFish Youtube channel, 
             with the hit series the "<a href="https://www.youtube.com/watch?v=p1aKW023sKM&list=PLJiD2nL032wbtGfSCod_0SiyJ3EVBRHPe">100 Days Challenge</a>". It is by far my most popular series yet,
             and the channel has had massive growth since the beggining of it.
+        </p>
+    </div>
+
+    <div>
+        <h3>Fantastica</h3>
+        <p>
+            Also in 2023 I started another series where I play on the Fantastica SMP, 
+            known as "<a href="https://youtu.be/S9yFS-tDfFM?si=FkxCAIXkUlctz0h6">Fantsatica SMP</a>" funnily enough. I was invited to this server from OmathaCraft so its a big chain of 3 now! 
+            It isn't doing quite as well as the 100 Days as they are longer videos, and a lot less personal. However, I am digging another big hole! so thats pretty fun.
         </p>
     </div>
 </div>

@@ -1,5 +1,10 @@
-<h2>Hello and welcome to my website!</h2>
+<h1>Me</h1>
 
-<p>The Website All About Me!</p>
+<div>
+    <h3>Hello!</h3>
+    <p>
+        My name is Christian, I have done many things under many names and this website is here to tell you about that.
+    </p>
+</div>
 
 

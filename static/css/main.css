@@ -59,7 +59,21 @@
         padding: 0px 50px;
     }
 
+    .gallery > div {
+        padding: 3vh 0;
+    }
+
     h1 {
+        text-align: center; 
+        color: black;
+        font-family: "Bahnschrift", Helvetica, sans-serif;
+        font-size: 11vw;;
+        margin: 0;
+        padding: 28vh 0;
+        white-space: nowrap;
+    }
+
+    h2 {
         text-align: left; 
         color: white;
         font-family: "Bahnschrift", Helvetica, sans-serif;
@@ -67,14 +81,14 @@
         margin: 0;
     }
 
-    h2 {
+    h3 {
         color: black;
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 55px;
         margin-bottom: 0;
     }
 
-    h3 {
+    h4 {
         color: black;
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 28px;
@@ -137,4 +151,21 @@
         cursor: pointer;
     }
 
-    
+    @media (max-width: 1200px) {
+        .main{
+            padding: 0px 20px;
+            margin:0;
+        }
+    }
+
+    @media (max-width: 900px) {
+        /*This is also where it will turn menu into drop down burger menu thing :) (below is my first attempt but you need some javascript my man kachow*/
+        nav {
+            grid-template-columns: 1fr;
+            z-index: 2;
+        }
+        
+        h1 {
+            padding: 37vh 0;
+        }
+    }

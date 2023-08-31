@@ -1,3 +1,19 @@
-<a href="https://www.songtell.com/chrissy-fresh-ft-chrissy-fresh/luv-or-somethin">link</a>
+<div>
+    <h1>Chrissy Fresh</h1>
 
-<h2>Chrissy Fresh</h2>
+    <div>
+        <h3>Origins</h3>
+        <p>
+            Chrissy Fresh started as the name I posted music under.
+        </p>
+    </div>
+
+    <div>
+        <h3>Classic Chrissy Fresh Songs:</h3>
+        <ul>
+            <li>Luv or S</li>
+            <li>Discord</li>
+            <li>Steam</li>
+        </ul>
+    </div>
+</div>
