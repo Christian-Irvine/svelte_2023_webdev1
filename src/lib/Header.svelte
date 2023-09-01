@@ -3,6 +3,6 @@
 </script>
 
 <header>
-    <div class="title"><h2>ME</h2></div>
+    <div class="title"><a href="/"><button><h2>ME</h2></button></a></div>
     <Nav/>
 </header>

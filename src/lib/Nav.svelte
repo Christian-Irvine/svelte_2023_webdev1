@@ -1,7 +1,7 @@
 <nav>
-    <a href="/"><button>Home</button></a>
-    <a href="/craftymcfish"><button>Crafty</button></a>
-    <a href="/chrissyfresh"><button>Chrissy</button></a>
-    <a href="/gallery"><button>Gallery</button></a>
+    <a href="/craftymcfish"><button class="headerbutton">Crafty</button></a>
+    <a href="/chrissyfresh"><button class="headerbutton">Chrissy</button></a>
+    <a href="/games"><button class="headerbutton">Games</button></a>
+    <a href="/gallery"><button class="headerbutton">Gallery</button></a>
 </nav>
 

@@ -22,11 +22,14 @@
     }
 
     .title {
-        margin-left: 16px;
-    }
-
-    .center_vertically{
-        margin: auto 0px;
+        text-align: center;
+        background-color: rgb(29, 202, 208);
+        color: white;
+        font-family: "Bahnschrift", Helvetica, sans-serif;
+        font-size: 2.5rem;
+        border: 0;
+        height: 100px;
+        width: 180px;
     }
 
     .gallery > div div {
@@ -61,6 +64,27 @@
 
     .gallery > div {
         padding: 3vh 0;
+    }
+
+    .headerbutton:hover {
+        background-color: rgb(56, 143, 146);
+        border: 0;
+    }
+
+    .icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .icons * i {
+        font-size: 60px;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .icons:hover {
+        cursor: pointer;
     }
 
     h1 {
@@ -113,8 +137,11 @@
 
     footer {
         background-color: rgb(29, 202, 208);
-        height: 65px;
+        height: 90px;
         margin-top: 40px;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
     }
 
     nav {
@@ -127,7 +154,6 @@
         height: 100px;
         margin-bottom: 40px;
         display: flex;
-        flex-wrap: nowrap;
         justify-content: space-between;
     }
 
@@ -140,11 +166,6 @@
         border: 0;
         height: 100px;
         width: 180px;
-    }
-
-    header button:hover {
-        background-color: rgb(56, 143, 146);
-        border: 0;
     }
 
     button:hover{
