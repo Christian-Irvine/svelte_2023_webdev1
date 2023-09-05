@@ -1,6 +1,6 @@
-<div>
-    <h1>CraftyMCFish</h1>
+<h1>CraftyMCFish</h1>
 
+<div class="page">
     <div>
         <h3>Origins</h3>
         <p>
