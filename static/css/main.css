@@ -4,7 +4,15 @@
 
     body {
         margin: 0;
-        background-color: rgb(231, 249, 255);
+        background-color: var(--background);
+    }
+
+    :root {
+        --background: rgb(238, 251, 255);
+        --accent: rgb(29, 202, 208);
+        --accent-hover: rgb(56, 143, 146);
+        --text-main: black;
+        --text-secondary: white;
     }
 
     .main {
@@ -14,7 +22,7 @@
     .border {
         border: 12px;
         border-style: outset;
-        border-color: rgb(29, 202, 208);
+        border-color: var(--accent);
     }
 
     .youtube {
@@ -23,8 +31,8 @@
 
     .title {
         text-align: center;
-        background-color: rgb(29, 202, 208);
-        color: white;
+        background-color: var(--accent);
+        color: var(--text-secondary);
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 2.5rem;
         border: 0;
@@ -67,7 +75,7 @@
     }
 
     .headerbutton:hover {
-        background-color: rgb(56, 143, 146);
+        background-color: var(--accent-hover);
         border: 0;
     }
 
@@ -89,7 +97,7 @@
 
     h1 {
         text-align: center; 
-        color: black;
+        color: var(--text-main);
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 11vw;;
         margin: 0;
@@ -99,21 +107,21 @@
 
     h2 {
         text-align: left; 
-        color: white;
+        color: var(--text-secondary);
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 85px;
         margin: 0;
     }
 
     h3 {
-        color: black;
+        color: var(--text-main);
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 55px;
         margin-bottom: 0;
     }
 
     h4 {
-        color: black;
+        color: var(--text-main);
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 28px;
         margin-bottom: 0;
@@ -121,7 +129,7 @@
 
     p {
         text-align: left; 
-        color: black;
+        color: var(--text-main);
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 27px;
         margin: 0;
@@ -129,14 +137,14 @@
 
     li {
         text-align: left; 
-        color: black;
+        color: var(--text-main);
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 25px;
         margin: 0;
     }
 
     footer {
-        background-color: rgb(29, 202, 208);
+        background-color: var(--accent);
         height: 90px;
         margin-top: 40px;
         display: flex;
@@ -150,7 +158,7 @@
     }
 
     header {
-        background-color: rgb(29, 202, 208);
+        background-color: var(--accent);
         height: 100px;
         margin-bottom: 40px;
         display: flex;
@@ -159,13 +167,14 @@
 
     header button {
         text-align: center;
-        background-color: rgb(29, 202, 208);
-        color: white;
+        background-color: var(--accent);
+        color: var(--text-secondary);
         font-family: "Bahnschrift", Helvetica, sans-serif;
         font-size: 2.5rem;
         border: 0;
         height: 100px;
         width: 180px;
+        transition:background-color 0.12s linear;
     }
 
     button:hover{
