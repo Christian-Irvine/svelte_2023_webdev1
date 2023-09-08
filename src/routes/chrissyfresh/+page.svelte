@@ -1,6 +1,6 @@
-<div class="page">
-    <h1>Chrissy Fresh</h1>
+<h1>Chrissy Fresh</h1>
 
+<div class="page">
     <div>
         <h3>Origins</h3>
         <p>

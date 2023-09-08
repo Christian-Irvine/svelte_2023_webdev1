@@ -1,3 +1,8 @@
+<script>
+    
+
+</script>
+
 <h1>CraftyMCFish</h1>
 
 <div class="page">
