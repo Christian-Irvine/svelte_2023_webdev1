@@ -97,6 +97,10 @@ body {
     cursor: pointer;
 }
 
+.page > div {
+    padding: 40px 0;
+}
+
 .page > div:nth-of-type(even) {
     background-color: var(--background-main);
 }
@@ -127,7 +131,7 @@ h1 {
     font-family: "Bahnschrift", Helvetica, sans-serif;
     font-size: 11vw;;
     margin: 0;
-    padding: 28vh 0;
+    padding: 30vh 0;
     white-space: nowrap;
 }
 
@@ -143,7 +147,7 @@ h3 {
     color: var(--text-main);
     font-family: "Bahnschrift", Helvetica, sans-serif;
     font-size: 55px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 h4 {
