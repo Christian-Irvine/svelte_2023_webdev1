@@ -1,223 +1,223 @@
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    body {
-        margin: 0;
-        background-color: var(--background);
-    }
+body {
+    margin: 0;
+    background-color: var(--background);
+}
 
-    :root {
-        --background: rgb(238, 251, 255);
-        --accent: rgb(29, 202, 208);
-        --accent-hover: rgb(56, 143, 146);
-        --text-main: black;
-        --text-secondary: white;
-    }
+:root {
+    --background: rgb(238, 251, 255);
+    --accent: rgb(29, 202, 208);
+    --accent-hover: rgb(56, 143, 146);
+    --text-main: black;
+    --text-secondary: white;
+}
 
-    .border {
-        border: 12px;
-        border-style: outset;
-        border-color: var(--accent);
-    }
+.border {
+    border: 12px;
+    border-style: outset;
+    border-color: var(--accent);
+}
 
-    .youtube {
-        aspect-ratio: 16 / 9;
-    }
+.youtube {
+    aspect-ratio: 16 / 9;
+}
 
-    .title {
-        text-align: center;
-        background-color: var(--accent);
-        color: var(--text-secondary);
-        font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 2.5rem;
-        border: 0;
-        height: 100px;
-        width: 180px;
-    }
+.title {
+    text-align: center;
+    background-color: var(--accent);
+    color: var(--text-secondary);
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    font-size: 2.5rem;
+    border: 0;
+    height: 100px;
+    width: 180px;
+}
 
-    .gallery {
-        padding: 0 200px;
+.gallery {
+    padding: 0 200px;
+}
+
+
+.gallery > div div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gallery > div:nth-of-type(odd) * {
+    text-align: right;
+}
+
+.gallery > div:nth-of-type(even) div * {
+    text-align: left;
+}
+
+.gallery > div:nth-of-type(odd) div * {
+    text-align: right;
+}
+
+.gallery > div:nth-of-type(odd) div :nth-child(2) {
+    order: -1;
+}
+
+.gallery > * img {
+    width: 100%;
+}
+
+.gallery > * p {
+    font-size:  32px;
+    padding: 0px 50px;
+}
+
+.gallery > div {
+    padding: 3vh 0;
+}
+
+.headerbutton:hover {
+    background-color: var(--accent-hover);
+    border: 0;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icons * i {
+    font-size: 60px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+
+.page {
+    padding: 0px 400px;
+}
+
+.page > div {
+    margin: 100px 0px;
+}
+
+.button {
+    text-align: center;
+    background-color: var(--accent);
+    color: var(--text-secondary);
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    font-size: 2.5rem;
+    border-radius: 30px;
+    height: 100px;
+    width: 180px;
+    position: 50%;
+}
+
+h1 {
+    text-align: center; 
+    color: var(--text-main);
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    font-size: 11vw;;
+    margin: 0;
+    padding: 28vh 0;
+    white-space: nowrap;
+}
+
+h2 {
+    text-align: left; 
+    color: var(--text-secondary);
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    font-size: 85px;
+    margin: 0;
+}
+
+h3 {
+    color: var(--text-main);
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: var(--text-main);
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: left; 
+    color: var(--text-main);
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    font-size: 27px;
+    margin: 0;
+    max-width: 80ch;
+}
+
+li {
+    text-align: left; 
+    color: var(--text-main);
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+footer {
+    background-color: var(--accent);
+    height: 90px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header {
+    background-color: var(--accent);
+    height: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header button {
+    text-align: center;
+    background-color: var(--accent);
+    color: var(--text-secondary);
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    font-size: 2.5rem;
+    border: 0;
+    height: 100px;
+    width: 180px;
+    transition:background-color 0.12s linear;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .page{
+        padding: 0px 20px;
+        margin:0;
+    }
+}
+
+@media (max-width: 900px) {
+    /*This is also where it will turn menu into drop down burger menu thing :) (below is my first attempt but you need some javascript my man kachow*/
+    nav {
+        grid-template-columns: 1fr;
+        z-index: 2;
     }
     
-
-    .gallery > div div {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .gallery > div:nth-of-type(odd) * {
-        text-align: right;
-    }
-
-    .gallery > div:nth-of-type(even) div * {
-        text-align: left;
-    }
-
-    .gallery > div:nth-of-type(odd) div * {
-        text-align: right;
-    }
-
-    .gallery > div:nth-of-type(odd) div :nth-child(2) {
-        order: -1;
-    }
-
-    .gallery > * img {
-        width: 100%;
-    }
-
-    .gallery > * p {
-        font-size:  32px;
-        padding: 0px 50px;
-    }
-
-    .gallery > div {
-        padding: 3vh 0;
-    }
-
-    .headerbutton:hover {
-        background-color: var(--accent-hover);
-        border: 0;
-    }
-
-    .icons {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .icons * i {
-        font-size: 60px;
-        margin: auto;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .icons:hover {
-        cursor: pointer;
-    }
-
-    .page {
-        padding: 0px 400px;
-    }
-
-    .page > div {
-        margin: 100px 0px;
-    }
-
-    .button {
-        text-align: center;
-        background-color: var(--accent);
-        color: var(--text-secondary);
-        font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 2.5rem;
-        border-radius: 30px;
-        height: 100px;
-        width: 180px;
-        position: 50%;
-    }
-
     h1 {
-        text-align: center; 
-        color: var(--text-main);
-        font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 11vw;;
-        margin: 0;
-        padding: 28vh 0;
-        white-space: nowrap;
+        padding: 37vh 0;
     }
-
-    h2 {
-        text-align: left; 
-        color: var(--text-secondary);
-        font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 85px;
-        margin: 0;
-    }
-
-    h3 {
-        color: var(--text-main);
-        font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 55px;
-        margin-bottom: 0;
-    }
-
-    h4 {
-        color: var(--text-main);
-        font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 28px;
-        margin-bottom: 0;
-    }
-
-    p {
-        text-align: left; 
-        color: var(--text-main);
-        font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 27px;
-        margin: 0;
-        max-width: 80ch;
-    }
-
-    li {
-        text-align: left; 
-        color: var(--text-main);
-        font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 25px;
-        margin: 0;
-    }
-
-    footer {
-        background-color: var(--accent);
-        height: 90px;
-        margin-top: 40px;
-        display: flex;
-        justify-content: flex-end;
-        flex-wrap: wrap;
-    }
-
-    nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    header {
-        background-color: var(--accent);
-        height: 100px;
-        margin-bottom: 40px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    header button {
-        text-align: center;
-        background-color: var(--accent);
-        color: var(--text-secondary);
-        font-family: "Bahnschrift", Helvetica, sans-serif;
-        font-size: 2.5rem;
-        border: 0;
-        height: 100px;
-        width: 180px;
-        transition:background-color 0.12s linear;
-    }
-
-    button:hover{
-        cursor: pointer;
-    }
-
-    @media (max-width: 1200px) {
-        .page{
-            padding: 0px 20px;
-            margin:0;
-        }
-    }
-
-    @media (max-width: 900px) {
-        /*This is also where it will turn menu into drop down burger menu thing :) (below is my first attempt but you need some javascript my man kachow*/
-        nav {
-            grid-template-columns: 1fr;
-            z-index: 2;
-        }
-        
-        h1 {
-            padding: 37vh 0;
-        }
-    }
+}
