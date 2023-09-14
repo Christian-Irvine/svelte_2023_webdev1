@@ -1,26 +1,20 @@
 <script>
-    
-
+    import Article from "$lib/Article.svelte";
+    import ArticleList from "$lib/ArticleList.svelte";
 </script>
 
 <h1>CraftyMCFish</h1>
 
 <div class="page">
-    <div>
-        <h3>Origins</h3>
-        <p>
-            The name CraftyMCFish originated on 2016. I wanted to change my username to 'MCFish' however,
-            that name was already taken so I decided to take the 'Crafty' part of my old username and slap it on the front to form 'CraftyMCFish'.
-        </p>
-    </div>
-
-    <div>
-        <p>
-            The channel was founded on the 7th Febuary 2017. At the beggining the videos consisted of animations made in Mine-Imator every week.
-            These videos were rather short, only being around 30 seconds long. I would spend about 3 hours on each video sometimes a little longer sometimes a little shorter.
-            Slowly over the few months of making them the quality began to improve. Though it wasn't long before I stopped.
-        </p>
-    </div>
+    
+    <Article 
+        heading="Origins" 
+        text="The name CraftyMCFish originated on 2016. I wanted to change my username to 'MCFish' however,
+        that name was already taken so I decided to take the 'Crafty' part of my old username and slap it on the front to form 'CraftyMCFish'.
+        The channel was founded on the 7th Febuary 2017. At the beggining the videos consisted of animations made in Mine-Imator every week.
+        These videos were rather short, only being around 30 seconds long. I would spend about 3 hours on each video sometimes a little longer sometimes a little shorter.
+        Slowly over the few months of making them the quality began to improve. Though it wasn't long before I stopped."
+    />
 
     <div>
         <h3>Places The Name CraftyMCFish Is Used</h3>
@@ -37,11 +31,15 @@
         </ul>
     </div>
 
+    <Article 
+        heading="My Youtube Trailer" 
+        text=""
+    />
+
     <div>
-        <h3>My Youtube Trailer</h3>
+        <h3></h3>
         <iframe class="youtube" width="100%" src="https://www.youtube.com/embed/ekBDeKwy86I" title="My Awesome Channel Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-
 
 
     <div>
@@ -49,7 +47,10 @@
         <iframe class="youtube" width="100%" src="https://www.youtube.com/embed/k12yrsRZdE8?si=81muJQaTa1_aZDpT" title="My Most Viewed Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
-
+    <Article 
+        heading="" 
+        text=""
+    />
 
     <div>
         <h3>AncientCraft</h3>
@@ -59,6 +60,11 @@
         </p>
     </div>
     
+    <Article 
+        heading="" 
+        text=""
+    />
+
     <div>
         <h3>My Own Server</h3>
         <p>
@@ -66,6 +72,11 @@
             but they have kept it alive this whole time.
         </p>
     </div>
+
+    <Article 
+        heading="" 
+        text=""
+    />
 
     <div>
         <h3>OmathaCraft</h3>
@@ -75,6 +86,11 @@
         </p>
     </div>
 
+    <Article 
+        heading="" 
+        text=""
+    />
+
     <div>
         <h3>100 Days</h3>
         <p>
@@ -83,6 +99,11 @@
             and the channel has had massive growth since the beggining of it.
         </p>
     </div>
+
+    <Article 
+        heading="" 
+        text=""
+    />
 
     <div>
         <h3>Fantastica</h3>
