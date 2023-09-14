@@ -5,3 +5,8 @@
     <a href="/gallery"><button class="headerbutton">Gallery</button></a>
 </nav>
 
+<script>
+    let changeNav = () => {
+        console.log("Resize time!");
+    }
+</script>

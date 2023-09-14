@@ -1,0 +1,13 @@
+<script>
+    export let heading;
+    export let text;
+</script>
+
+<div>
+    <div>
+        <h3>{ heading }</h3>
+        <ul>
+            <li>{ text }</li>
+        </ul>
+    </div>
+</div>
