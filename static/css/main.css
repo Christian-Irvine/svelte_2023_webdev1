@@ -8,10 +8,10 @@ body {
 }
 
 :root {
-    --background-main: rgb(238, 251, 255);
-    --background-secondary: rgb(220, 235, 240);
-    --accent: rgb(29, 202, 208);
-    --accent-hover: rgb(56, 143, 146);
+    --background-main: #F6F4EB;
+    --background-secondary: #91C8E4;
+    --accent: #749BC2;
+    --accent-hover: #4682A9;
     --text-main: black;
     --text-secondary: white;
 }

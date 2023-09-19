@@ -6,8 +6,6 @@
 <div>
     <div>
         <h3>{ heading }</h3>
-        <ul>
-            <li>{ text }</li>
-        </ul>
+        <p>{ text }</p>
     </div>
 </div>

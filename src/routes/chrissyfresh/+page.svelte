@@ -1,6 +1,6 @@
 <script>
-    import Article from "$lib/Article.svelte";
-    import ArticleList from "$lib/ArticleList.svelte";
+    import Article from "$lib/components//Article.svelte";
+    import ArticleList from "$lib/components//ArticleList.svelte";
 </script>
 
 <h1>Chrissy Fresh</h1>
@@ -12,7 +12,15 @@
         For example my Instagram is called chrissy_fresh even though very little of what I post on there is about music. Its it just my online username for non gaming related things."
     />
 
-    <ArticleList heading="Classic Chrissy Fresh Songs" text="Luv or Somethin'"/>
+    <ArticleList 
+        heading="Classic Chrissy Fresh Songs" 
+        items = {[
+            "Luv or Somethin'", 
+            "All I Want For Fortmas Is Vbucks",
+            "Empty House With An Open Door"
+        ]}
+    />
+    
     <!--
     <div>
         <div>
