@@ -102,6 +102,10 @@ body {
     background-repeat: no-repeat;
 }
 
+/* .gallery > div:nth-of-type(even) > div > div:nth-child(1) { */
+    /* grid-column: -1; */
+/* } */
+
 h1 {
     text-align: center; 
     color: var(--text-main);

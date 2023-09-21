@@ -17,7 +17,13 @@
 
 <div>
     <h1>Gallery</h1>
-    <div class="page">
+    <div class="page gallery">
+        <ArticleImage
+            heading="image"
+            text="image"
+            image="craftymcfish1.jpg"
+        />
+
         <ArticleImage
             heading="image"
             text="image"
