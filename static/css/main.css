@@ -37,45 +37,6 @@ body {
     width: 180px;
 }
 
-.gallery {
-    padding: 0 200px;
-}
-
-
-.gallery > div div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.gallery > div:nth-of-type(odd) * {
-    text-align: right;
-}
-
-.gallery > div:nth-of-type(even) div * {
-    text-align: left;
-}
-
-.gallery > div:nth-of-type(odd) div * {
-    text-align: right;
-}
-
-.gallery > div:nth-of-type(odd) div :nth-child(2) {
-    order: -1;
-}
-
-.gallery > * img {
-    width: 100%;
-}
-
-.gallery > * p {
-    font-size:  32px;
-    padding: 0px 50px;
-}
-
-.gallery > div {
-    padding: 3vh 0;
-}
-
 .headerbutton:hover {
     background-color: var(--accent-hover);
     border: 0;
