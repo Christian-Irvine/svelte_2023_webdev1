@@ -8,10 +8,10 @@ body {
 }
 
 :root {
-    --background-main: #F6F4EB;
-    --background-secondary: #91C8E4;
-    --accent: #749BC2;
-    --accent-hover: #4682A9;
+    --background-main: #eeeeee;
+    --background-secondary: #d4d4d4;
+    --accent: #2181a1;
+    --accent-hover: #19637c;
     --text-main: black;
     --text-secondary: white;
 }
@@ -123,6 +123,22 @@ body {
     height: 100px;
     width: 180px;
     position: 50%;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-image {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
