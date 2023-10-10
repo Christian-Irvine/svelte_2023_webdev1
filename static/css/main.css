@@ -59,7 +59,7 @@ body {
 }
 
 .page > div {
-    padding: 40px 0;
+    padding: 40px 400px;
 }
 
 .page > div:nth-of-type(even) {
@@ -68,10 +68,6 @@ body {
 
 .page > div:nth-of-type(odd) {
     background-color: var(--background-secondary);
-}
-
-.page > div > div {
-    padding: 0px 400px;
 }
 
 .button {
@@ -102,9 +98,9 @@ body {
     background-repeat: no-repeat;
 }
 
-/* .gallery > div:nth-of-type(even) > div > div:nth-child(1) { */
-    /* grid-column: -1; */
-/* } */
+.gallery > div:nth-of-type(even) > div > div:nth-child(1) {
+    grid-column-end: 0; 
+} 
 
 h1 {
     text-align: center; 
@@ -195,7 +191,7 @@ button:hover{
 
 @media (max-width: 1200px) {
     .page{
-        padding: 0px 20px;
+        padding: 0px;
         margin:0;
     }
 }
