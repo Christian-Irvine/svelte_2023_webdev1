@@ -1,33 +1,56 @@
 <script>
     import ArticleImage from "$lib/components/ArticleImage.svelte";
+    import Article from "$lib/components/Article.svelte";
     import { onMount } from "svelte";
 
-    let horses = [];
+    let results = [];
+    const query = `fish`;
 
-    onMount(() => {
+    onMount(async () => {
         const BASE_URL = "https://api.unsplash.com";
-        const ACCESS_KEY = "L7AbVF4hNZYjPi5SEV4yrdvuZHLY5PLNbThntYAdK5" //8
-        fetch(`${BASE_URL}/search/photos?query=horses&client_id=${ACCESS_KEY}`)
-        .then(res => res.json())
-        .then(data => {
-        horses = data.results
-        })
-    })
+        const ACCESS_KEY = "L7AbVF4hNZYjPi5SEV4yrdvuZHLY5PLNbThntYAdK58" //8
+        let response = await fetch(`${BASE_URL}/search/photos?query=${query}&client_id=${ACCESS_KEY}`)
+        let data = await response.json();
+        console.log(data);
+        results = data.results;
+    });
+
+    let description;
+    let title;
+
+    const setImageTextValues = (desc, alt_desc) => {
+        if (desc !== null) {
+            if (desc.length < alt_desc.length){
+                title = desc;
+                description = alt_desc;
+            }
+            else {
+                title = alt_desc;
+                description = alt_desc;
+            }
+        }
+        else {
+            title = query;
+            description = alt_desc;
+        }
+    };
 </script>
 
-<div>
-    <h1>Gallery</h1>
-    <div class="page gallery">
-        <ArticleImage
-            heading="image"
-            text="image"
-            image="craftymcfish1.jpg"
-        />
+<h1>Gallery</h1>
+<div class="page gallery">
+    
+    <Article
+        heading="Some images"
+        text="Here are a collection of images that relate to me for various reasons"
+    />
+
+    {#each results as result}
+        { setImageTextValues(result.description, result.alt_desc) }
 
         <ArticleImage
-            heading="image"
-            text="image"
-            image="craftymcfish1.jpg"
+            image={ result.urls.regular }
+            heading={ title }
+            text={ description }
         />
-    </div>
+    {/each}
 </div>
