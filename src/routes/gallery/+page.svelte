@@ -18,7 +18,7 @@
     let description;
     let title;
 
-    let setImageTextValues (desc, alt_desc) => {
+    let setImageTextValues = (desc, alt_desc) => {
         if (desc !== null){
             if (desc.length < alt_desc.length){
                 title = desc;
@@ -34,6 +34,8 @@
             description = alt_desc;
         }
     };
+
+    //{setImageTextValues(result.description, result.alt_desc)} //This line should replace the bad html foreach
 </script>
 
 <h1>Gallery</h1>
@@ -45,8 +47,6 @@
     />
 
     {#each results as result}
-        {setImageTextValues(result.description, result.alt_desc)}
-
         {#if result.description !== null}
             {#if result.description.length < result.alt_description.length}
                 { title = result.description }
