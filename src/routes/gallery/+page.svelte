@@ -1,5 +1,5 @@
 <script>
-    import ArticleImage from "$lib/components/ArticleImage.svelte";
+    import APIImage from "$lib/components/APIImage.svelte";
     import Article from "$lib/components/Article.svelte";
     import { onMount } from "svelte";
 
@@ -18,22 +18,7 @@
     let description;
     let title;
 
-    let setImageTextValues = (desc, alt_desc) => {
-        if (desc !== null){
-            if (desc.length < alt_desc.length){
-                title = desc;
-                description = alt_desc;
-            }
-            else {
-                title = alt_desc;
-                description = alt_desc;
-            }
-        }
-        else {
-            title = query;
-            description = alt_desc;
-        }
-    };
+    
 
     //{setImageTextValues(result.description, result.alt_desc)} //This line should replace the bad html foreach
 </script>
@@ -45,10 +30,23 @@
         heading="Some images"
         text="Here are a collection of images that relate to me for various reasons"
     />
-
+        
     {#each results as result}
+        <!-- {() => setImageTextValues(results.description, results.alt_description)} -->
+        <APIImage
+            image={ result.urls.regular }
+            heading={ result.description }
+            text={ result.alt_description }
+            query={ query }
+        />
+    {/each}
+   
+
+    
+    <!-- {#each results as result}
         {#if result.description !== null}
             {#if result.description.length < result.alt_description.length}
+            
                 { title = result.description }
                 { description = result.alt_description }
             {:else if result.description.length > result.alt_description.length}
@@ -65,5 +63,6 @@
             heading={ title }
             text={ description }
         />
-    {/each}
+    {/each} -->
+    
 </div>
