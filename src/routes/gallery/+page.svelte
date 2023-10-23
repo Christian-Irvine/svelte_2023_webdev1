@@ -40,29 +40,4 @@
             query={ query }
         />
     {/each}
-   
-
-    
-    <!-- {#each results as result}
-        {#if result.description !== null}
-            {#if result.description.length < result.alt_description.length}
-            
-                { title = result.description }
-                { description = result.alt_description }
-            {:else if result.description.length > result.alt_description.length}
-                { description = result.description }
-                { title = result.alt_description } 
-            {/if}
-        {:else}
-            { title = query }
-            { description = result.alt_description }
-        {/if}
-
-        <ArticleImage
-            image={ result.urls.regular }
-            heading={ title }
-            text={ description }
-        />
-    {/each} -->
-    
 </div>
