@@ -27,20 +27,15 @@
             "Epic Games",
             "Roblox",
             "Microsoft",
-            "Minecraft (Java)",
+            "Minecraft Java Edition",
             "Reddit",
-            "Tik Tok (ew)",
+            "Tik Tok",
         ]}    
     />
 
     <ArticleYoutube 
         heading="My Youtube Trailer" 
         link="https://www.youtube.com/embed/ekBDeKwy86I"
-    />
-    
-    <ArticleYoutube 
-        heading="My Most Viewed Video" 
-        link="https://www.youtube.com/embed/k12yrsRZdE8?si=81muJQaTa1_aZDpT"
     />
 
     <Article 
@@ -55,6 +50,10 @@
         but they have kept it alive this whole time."
     />
 
+    <ArticleYoutube 
+        heading="My Most Viewed Video" 
+        link="https://www.youtube.com/embed/FeIo7c5bG4Q?si=LFXPcolscTZU8VqR"
+    />
 
     <Article 
         heading="OmathaCraft" 
