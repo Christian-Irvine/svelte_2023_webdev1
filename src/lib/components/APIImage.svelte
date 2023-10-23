@@ -9,15 +9,16 @@
       let setImageTextValues = (desc, alt_desc) => {
           if (desc !== null) {
               if (desc.length < alt_desc.length) {
+                  heading = heading.charAt(0).toUpperCase() + heading.slice(1);
                   return;
               }
               else {
-                  heading = alt_desc;
+                  heading = alt_desc.charAt(0).toUpperCase() + alt_desc.slice(1);
                   text = desc;
               }
           }
           else {
-              heading = query;
+              heading = query.charAt(0).toUpperCase() + query.toLowerCase().slice(1);
               text = alt_desc;
           }
       };
