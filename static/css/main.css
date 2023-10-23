@@ -14,6 +14,7 @@ body {
     --accent-hover: #19637c;
     --text-main: black;
     --text-secondary: white;
+    --icons: white;
 }
 
 .border {
@@ -52,6 +53,7 @@ body {
     margin: auto;
     padding: 10px;
     text-align: center;
+    color: var(--icons);
 }
 
 .icons:hover {
@@ -59,7 +61,7 @@ body {
 }
 
 .page > div {
-    padding: 40px 350px;
+    padding: 60px 350px;
 }
 
 .page > div:nth-of-type(even) {
