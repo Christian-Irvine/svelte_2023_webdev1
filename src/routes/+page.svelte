@@ -17,6 +17,13 @@
         It is what I play games under but it is also the name my Youtube Channel goes by.
         On the channel I post Minecraft Gaming videos but plan to expand to other games in the future."
     />
+    
+    <Article
+        heading="Chrissy Fresh";
+        text="Chrissy Fresh is my music and personal username on the internet.
+        Primarily the name was for releasing music under, but I also ended up using the name for my acounts with more personal things on them.
+        For example my instagram which has pictures of me and what i'm doing."
+    />
 </div>
 
 
