@@ -10,8 +10,8 @@ body {
 :root {
     --background-main: #eeeeee;
     --background-secondary: #d4d4d4;
-    --accent: #2181a1;
-    --accent-hover: #19637c;
+    --accent: #419bb9;
+    --accent-hover: #34819b;
     --text-main: black;
     --text-secondary: white;
     --icons: white;
@@ -87,6 +87,13 @@ body {
 .image-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.article-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+    background-position: center;
 }
 
 .image-flex {

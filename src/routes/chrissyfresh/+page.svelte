@@ -1,13 +1,14 @@
 <script>
     import Article from "$lib/components//Article.svelte";
     import ArticleList from "$lib/components//ArticleList.svelte";
+    import ArticleImage from "$lib/components//ArticleImage.svelte";
 </script>
 
 <h1>Chrissy Fresh</h1>
 
 <div class="page">
     <Article 
-        heading="Origins" 
+        heading="Origins"
         text="Chrissy Fresh started as the name I posted music under. And eventually became a name I went by online, for more personal things. 
         For example my Instagram is called chrissy_fresh even though very little of what I post on there is about music. Its it just my online username for non gaming related things."
     />
@@ -20,19 +21,14 @@
             "Empty House With An Open Door"
         ]}
     />
-    
-    <!--
-    <div>
-        <div>
-            <h3>Classic Chrissy Fresh Songs:</h3>
-            <ul>
-                <li><a href="https://youtu.be/k5HRtc6PMsI?si=b4F696BejiR7_Jt8" target="_blank">Luv or Somethin'</a></li>
-                <li><a href="https://youtu.be/FthGNI1uFwM?si=0Cv_aS8c6KGz4nw9" target="_blank">All I Want For Fortmas Is Vbucks</a></li>
-                <li><a href="https://youtu.be/YSANgdLCJyU?si=KoFYNeq4R0FCanyS" target="_blank">Empty House With An Open Door</a></li>
-            </ul>
-        </div>
-    </div>
-    -->
+
+    <ArticleImage
+        heading="Luv or Somethin'" 
+        text="Luv or Somethin' was my first song I released for Valentines Day in 2020 (even if it was a few days late). It was created within a week with me writing the lyrics,
+        and a friend of mine playing the guitar. We went over to another friend to record it one day, but all of the things we got didn't line up so we had to record it on our phones and send it to friend 2.
+        And that abomination of a song creation week is half the reason it is so bad. The other reason was I didn't sing I just talked."
+        image="LuvOrSomethin.png"
+    />
 
     <Article 
         heading="Luv or Somethin'" 
