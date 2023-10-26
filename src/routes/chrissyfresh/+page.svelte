@@ -50,6 +50,4 @@
         in 2023 I decided I wanted another Valentines Day Song, so I went back to friend 2s house and went ham. This time though we both were more experienced and we actually produced an absolute banger.
         We even got an old friend I hadn't spoken to in over a decade to play the bass guitar (which slaps by the way)."
     />
-
-    <Article heading="" text=""/>
 </div>

@@ -196,6 +196,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 header {
