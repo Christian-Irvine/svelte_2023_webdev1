@@ -43,21 +43,29 @@ body {
     border: 0;
 }
 
-.icons {
+.icons-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.icons * i {
+.icons-footer * i {
     font-size: 60px;
     margin: auto;
     padding: 10px;
-    text-align: center;
+    text-align: right;
     color: var(--icons);
 }
 
-.icons:hover {
+.icon:hover {
     cursor: pointer;
+}
+
+.icon-header * i {
+    font-size: 60px;
+    margin: auto;
+    padding: 10px;
+    text-align: right;
+    color: var(--icons);
 }
 
 .page > div {
@@ -117,6 +125,10 @@ body {
     text-align: right;
 }
 
+.hamburger-menu {
+    display: none;
+    width: 100px;
+}
 
 h1 {
     text-align: center; 
@@ -176,11 +188,6 @@ footer {
     flex-wrap: wrap;
 }
 
-nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
 header {
     background-color: var(--accent);
     height: 100px;
@@ -216,11 +223,10 @@ button:hover{
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
     /*This is also where it will turn menu into drop down burger menu thing :) (below is my first attempt but you need some javascript my man kachow*/
-    nav {
-        grid-template-columns: 1fr;
-        z-index: 2;
+    .hamburger-menu {
+        display: block;
     }
     
     h1 {
@@ -229,5 +235,14 @@ button:hover{
 
     .page > div {
         padding: 40px 20px;
+    }
+
+    .nav-buttons {
+        grid-template-columns: 1fr;
+        z-index: 2;
+    }
+
+    .nav-hide {
+        display: none;
     }
 }
