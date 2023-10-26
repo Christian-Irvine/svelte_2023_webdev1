@@ -130,6 +130,11 @@ body {
     width: 100px;
 }
 
+.nav-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 h1 {
     text-align: center; 
     color: var(--text-main);
@@ -238,6 +243,7 @@ button:hover{
     }
 
     .nav-buttons {
+        display: grid;
         grid-template-columns: 1fr;
         z-index: 2;
     }
