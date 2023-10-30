@@ -15,20 +15,16 @@
         results = data.results;
     });
 
-    let description;
-    let title;
+    let headingText = `Here are a collection of ${ query } that relate to me because I like ${ query }`;
 
-    
-
-    //{setImageTextValues(result.description, result.alt_desc)} //This line should replace the bad html foreach
 </script>
 
 <h1>Gallery</h1>
 <div class="page gallery">
     
     <Article
-        heading="Some images"
-        text="Here are a collection of images that relate to me for various reasons"
+        heading="Some images";
+        text={ headingText };
     />
         
     {#each results as result}
