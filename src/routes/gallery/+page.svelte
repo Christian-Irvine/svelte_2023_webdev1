@@ -1,4 +1,5 @@
 <script>
+    // Imports the Components used on the page
     import APIImage from "$lib/components/APIImage.svelte";
     import Article from "$lib/components/Article.svelte";
     import ArticleParagraph from "$lib/components/Articleparagraph.svelte";
@@ -8,6 +9,7 @@
     let results = [];
     const query = `fish`;
 
+    // Code to get the images from the unsplash.com api
     onMount(async () => {
         const BASE_URL = "https://api.unsplash.com";
         const ACCESS_KEY = "L7AbVF4hNZYjPi5SEV4yrdvuZHLY5PLNbThntYAdK58" //8
@@ -21,6 +23,7 @@
 
 </script>
 
+<!-- Title and white space -->
 <div class="title-div">
     <h1>Gallery</h1>
 </div>
@@ -31,9 +34,8 @@
         heading="Some images";
         text={ headingText };
     />
-        
+    <!-- Puts all of the images on the page from the API -->
     {#each results as result}
-        <!-- {() => setImageTextValues(results.description, results.alt_description)} -->
         <APIImage
             image={ result.urls.regular }
             heading={ result.description }
