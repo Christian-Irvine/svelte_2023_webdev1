@@ -24,6 +24,7 @@
         Slowly over the few months of making them the quality began to improve. Though it wasn't long before I stopped."
     />
 
+    <!-- Article List takes array of strings to display list items -->
     <ArticleList 
         heading="Places The Name CraftyMCFish Is Used"
         items={[
