@@ -1,6 +1,8 @@
 <script>
     import APIImage from "$lib/components/APIImage.svelte";
     import Article from "$lib/components/Article.svelte";
+    import ArticleParagraph from "$lib/components/Articleparagraph.svelte";
+
     import { onMount } from "svelte";
 
     let results = [];
@@ -39,4 +41,8 @@
             query={ query }
         />
     {/each}
+
+    <ArticleParagraph
+        text="Images from unsplash.com"
+    />
 </div>
