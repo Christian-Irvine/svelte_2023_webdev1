@@ -1,3 +1,5 @@
+<!-- The Chrissy Fresh page about my music and generalised usage of the name -->
+
 <script>
     // Importing Components that I use on page
     import Article from "$lib/components//Article.svelte";
