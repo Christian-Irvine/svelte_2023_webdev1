@@ -28,6 +28,7 @@
     <h1>Gallery</h1>
 </div>
 
+<!-- The page class div to have the contents alternating colour and gallery class to have alternating sides of of image  -->
 <div class="page gallery">
     
     <Article
