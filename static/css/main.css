@@ -261,4 +261,14 @@ button:hover{
     .nav-hide {
         display: none;
     }
+
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .article-image{
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 50px;
+    }
 }

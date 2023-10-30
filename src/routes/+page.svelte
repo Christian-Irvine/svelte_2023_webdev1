@@ -3,7 +3,9 @@
 
 </script>
 
-<h1>Me</h1>
+<div class="title-div">
+    <h1>Me</h1>
+</div>
 
 <div class="page">
     <Article
