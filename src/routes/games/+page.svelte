@@ -36,9 +36,9 @@
 
     <ArticleImage
         heading="James May and The Eight Cheeses"
-        text="God Save The Queen was a game I decided to make around the sad demise of The Queen (Rest In Peace).
-        You had to get the queen from one side of the map to the other where the Union Jack was without her falling or touching spikes or whatnot by placing things with a limited budget.
-        I didn't get very far because I didn't really enjoy making the game too much, and also the code was pretty hard to maintain."
+        text="James May and The Eight Cheeses is a game very similar to Slender The Eight Pages, except instead of slenderman its James May and instead of pages its cheese.
+        The premise is you have to collect all 8 Cheeses to win but each one you pick up James May gets faster and teleported close to you so you must escape that area quickly.
+        This was one of the first 3D projects I attempted and I didn't make great use of LOD's so it ran really really poorly on my pretty good PC so I stopped development on that too."
         image="craftymcfish1.jpg"
     />
 
