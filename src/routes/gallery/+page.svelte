@@ -1,3 +1,5 @@
+<!-- The Gallery of images from the Unsplash API based on the query -->
+
 <script>
     // Imports the Components used on the page
     import APIImage from "$lib/components/APIImage.svelte";
@@ -7,7 +9,9 @@
     import { onMount } from "svelte";
 
     let results = [];
-    const query = `fish`;
+    
+    //This if possible be a plural for gramatical reasons
+    const query = `fish`; 
 
     // Code to get the images from the unsplash.com api
     onMount(async () => {
