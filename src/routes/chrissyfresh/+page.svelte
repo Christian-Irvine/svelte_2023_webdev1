@@ -4,7 +4,9 @@
     import ArticleImage from "$lib/components//ArticleImage.svelte";
 </script>
 
-<h1>Chrissy Fresh</h1>
+<div class="title-div">
+    <h1>Chrissy Fresh</h1>
+</div>
 
 <div class="page">
     <Article 

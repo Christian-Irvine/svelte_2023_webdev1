@@ -19,7 +19,10 @@
 
 </script>
 
-<h1>Gallery</h1>
+<div class="title-div">
+    <h1>Gallery</h1>
+</div>
+
 <div class="page gallery">
     
     <Article

@@ -4,7 +4,9 @@
     import ArticleYoutube from "$lib/components/ArticleYoutube.svelte";
 </script>
 
-<h1>CraftyMCFish</h1>
+<div class="title-div">
+    <h1>CraftyMCFish</h1>
+</div>
 
 <div class="page">
     

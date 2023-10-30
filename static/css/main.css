@@ -140,13 +140,17 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.title-div {
+    padding: 30vh 0;
+}
+
 h1 {
     text-align: center; 
     color: var(--text-main);
     font-family: "Bahnschrift", Helvetica, sans-serif;
-    font-size: 11vw;;
+    font-size: 11vw;
     margin: 0;
-    padding: 30vh 0;
+
     white-space: nowrap;
 }
 
