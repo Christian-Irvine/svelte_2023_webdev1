@@ -1,6 +1,7 @@
 <script>
     import Article from "$lib/components/Article.svelte";
     import ArticleImage from "$lib/components//ArticleImage.svelte";
+    import ArticleList from "$lib/components/ArticleList.svelte";
 </script>
 
 <div class="title-div">
@@ -14,6 +15,20 @@
         I started making games about 2 weeks before the Polytech Game Jam in 2022 before partaking in said Game Jam. 
         I thought it would be fun to try and learn as much as possible in a short time and see if we could make anything playable.
         From that I discovered making games is something I would love to do as a career and is something I hope to do."
+    />
+
+    <ArticleList 
+        heading="Games I've Tried Making"
+        items={[
+            "Hospital Hands",
+            "2D Fish Shooter",
+            "James May and The Eight Cheeses",
+            "God Save The Queen",
+            "2D Fish Shooter 2",
+            "Burgotage!",
+            "Untitled Town Game",
+            "2D Fish Shooter 3"
+        ]}    
     />
 
     <ArticleImage
@@ -55,6 +70,22 @@
         text="2D Fish Shooter 2 is a lot like the first 2D Fish Shooter except I was slightly better at programming it when I started in 2023. 
         This version got a lot further with a boss, a shop system, cooler animations, better pixel art, even health on the fish, different guns e.t.c. 
         The issue is after developing it for 6 months I once again got a lot better at programming and realised how the system wasn't great to maintain so moved on again."
+        image="craftymcfish1.jpg"
+    />
+
+    <ArticleImage
+        heading="Burgotage!"
+        text="Burgotage! was my second Game Jam entry in the 2023 Game Makers Toolkit Game Jam. The theme was revered roles.
+        So I took the concept of Papas burgeria and made it so you are trying to sabotage the burger place. So your own rival one could get all the customers.
+        Overall for 48 hours I think it was quite successful and the code was horrible but it did work and I had no plans on continuing it."
+        image="craftymcfish1.jpg"
+    />
+
+    <ArticleImage
+        heading="Untitled Town Game"
+        text="I never named it but I started working on a town building simulator game where the twist was it was first person.
+        The hope was that it would feel more grounded and that you were the mayor rather than some god placing buildings from the sky.
+        I never really got far as the scale of the project was absolutely massive and I got burned out within a couple weeks with what felt like little progress."
         image="craftymcfish1.jpg"
     />
 
