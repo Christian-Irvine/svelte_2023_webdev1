@@ -53,8 +53,16 @@
     <ArticleImage
         heading="2D Fish Shooter 2"
         text="2D Fish Shooter 2 is a lot like the first 2D Fish Shooter except I was slightly better at programming it when I started in 2023. 
-        This version got a lot further with a boss, a shop system, cooler animations, better pixel art, different guns e.t.c. 
+        This version got a lot further with a boss, a shop system, cooler animations, better pixel art, even health on the fish, different guns e.t.c. 
         The issue is after developing it for 6 months I once again got a lot better at programming and realised how the system wasn't great to maintain so moved on again."
+        image="craftymcfish1.jpg"
+    />
+
+    <ArticleImage
+        heading="2D Fish Shooter 3"
+        text="2D Fish Shooter 3 is actually quite different from the other two. This time you have a player and have to navigate around caves and the ocean, 
+        all still to shoot fish. Currently the only thing that exists is swimming and proceedurall terrain. But over the 2023 summer I intend on making a lot of progress on it.
+        Hopefully there isn't a need for a 2D Fish Shooter 4, and maybe a 3D Fish shooter one day."
         image="craftymcfish1.jpg"
     />
 </div>
