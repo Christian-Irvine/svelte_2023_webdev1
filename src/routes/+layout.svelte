@@ -23,7 +23,7 @@
     />
 {:else if yPos > 0 && firstLoad} 
     <Header 
-    fadeClass=""
+    fadeClass="header-hide"
     />
     { firstLoad = false }
 {:else}
@@ -32,7 +32,9 @@
     />
 {/if}
 
-<div class="main">
+<div class="b2t"><a href="#main">back to top</a></div>
+
+<div class="main" id="main">
 
 <slot />
 

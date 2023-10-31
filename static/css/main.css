@@ -260,6 +260,16 @@ button:hover{
     cursor: pointer;
 }
 
+.b2t {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    z-index: 99;
+}
+
 @media (max-width: 1200px) {
     .page{
         padding: 0px;
