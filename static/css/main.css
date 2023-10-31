@@ -147,6 +147,7 @@ body {
 .header-hide {
     animation-name: header-hide;
     animation-duration: 0.5s;
+    top: -100px;
 }
 
 @keyframes header-hide {
@@ -161,6 +162,7 @@ body {
 .header-show {
     animation-name: header-show;
     animation-duration: 0.5s;
+    top: 0;
 }
 
 @keyframes header-show {

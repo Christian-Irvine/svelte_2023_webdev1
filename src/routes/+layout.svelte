@@ -3,6 +3,7 @@
     import Footer from "$lib/components/Footer.svelte";
 
     let yPos;
+    let firstLoad = true;
 </script>
 
 <svelte:head>
@@ -12,18 +13,24 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </svelte:head>
 
-{#if yPos <= 0}
+{#if yPos <= 0 && !firstLoad}
     <Header 
         fadeClass="header-show"
     />
-{:else}
+{:else if !firstLoad}
     <Header 
     fadeClass="header-hide"
     />
+{:else if yPos > 0 && firstLoad} 
+    <Header 
+    fadeClass=""
+    />
+    { firstLoad = false }
+{:else}
+    <Header 
+    fadeClass=""
+    />
 {/if}
-
-
-
 
 <div class="main">
 
