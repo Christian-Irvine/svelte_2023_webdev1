@@ -1,10 +1,10 @@
 <script>
     import { onMount } from "svelte";
   
-      export let heading;
-      export let text;
-      export let image;
-      export let query;
+    export let heading;
+    export let text;
+    export let image;
+    export let query;
   
       let setImageTextValues = (desc, alt_desc) => {
           if (desc !== null) {

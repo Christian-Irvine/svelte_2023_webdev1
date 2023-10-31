@@ -141,7 +141,46 @@ body {
 }
 
 .title-div {
-    padding: 30vh 0;
+    padding: 40vh 0;
+}
+
+.header-hide {
+    animation-name: header-hide;
+    animation-duration: 0.5s;
+}
+
+@keyframes header-hide {
+    0%   {
+        top: 0;
+    }
+    100% { 
+        top: -100px;
+    }
+  }
+
+.header-show {
+    animation-name: header-show;
+    animation-duration: 0.5s;
+}
+
+@keyframes header-show {
+    0%   {
+        top: -100px;
+    }
+    100% { 
+        top: 0;
+    }
+  }
+
+  header {
+    background-color: var(--accent);
+    height: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 h1 {
@@ -201,14 +240,6 @@ footer {
     justify-content: flex-end;
     flex-wrap: wrap;
     margin: 0;
-}
-
-header {
-    background-color: var(--accent);
-    height: 100px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: space-between;
 }
 
 header button {
