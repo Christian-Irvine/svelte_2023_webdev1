@@ -1,6 +1,8 @@
 <script>
     import Header from "$lib/components/Header.svelte";
     import Footer from "$lib/components/Footer.svelte";
+
+    let yPos;
 </script>
 
 <svelte:head>
@@ -10,7 +12,18 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </svelte:head>
 
-<Header />
+{#if yPos <= 0}
+    <Header 
+        fadeClass="header-show"
+    />
+{:else}
+    <Header 
+    fadeClass="header-hide"
+    />
+{/if}
+
+
+
 
 <div class="main">
 
@@ -19,3 +32,5 @@
 </div>
 
 <Footer />
+
+<svelte:window bind:scrollY={ yPos }/>
