@@ -1,13 +1,18 @@
+<!-- The Games page about all of the games I have made in the Unity Engine over the past year and a bit -->
+
 <script>
+    // Importing components used for this page
     import Article from "$lib/components/Article.svelte";
     import ArticleImage from "$lib/components//ArticleImage.svelte";
     import ArticleList from "$lib/components/ArticleList.svelte";
 </script>
 
+<!-- Title and div to have white space and title at top of page -->
 <div class="title-div">
     <h1>Games</h1>
 </div>
 
+<!-- The page class div to have the contents alternating colour -->
 <div class="page">
     <Article 
         heading="Games I've Made"
@@ -16,7 +21,8 @@
         I thought it would be fun to try and learn as much as possible in a short time and see if we could make anything playable.
         From that I discovered making games is something I would love to do as a career and is something I hope to do."
     />
-
+    
+    <!-- Article List takes array of strings to display list items -->
     <ArticleList 
         heading="Games I've Tried Making"
         items={[
