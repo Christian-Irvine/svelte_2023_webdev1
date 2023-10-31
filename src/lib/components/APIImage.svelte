@@ -35,7 +35,9 @@
   
   <!-- The actual image and text part that displays on the page in two divs so they can alternate-->
   <div class="image-grid">
+      <!-- The image part -->
       <div class="gallery-image" style="background-image:url({ image })"></div>
+      <!-- The title and paragraph part -->
       <div class="image-flex">
           <h3>{ heading }</h3>
           <p>{ text }</p>
