@@ -146,6 +146,7 @@ body {
 
 .back-to-top {
     position: fixed;
+    right: -80px;
     bottom: 100px;
     padding: 20px 30px 20px 20px;
     background-color: var(--accent);
@@ -156,7 +157,7 @@ body {
 
 .back-to-top-hide {
     animation-name: back-to-top-hide;
-    animation-duration: 0.15s;
+    animation-duration: 0.2s;
     right: -80px;
 }
 
@@ -183,8 +184,6 @@ body {
         right: -10px;
     }
 }
-
-
 
 .header-hide {
     animation-name: header-hide;
