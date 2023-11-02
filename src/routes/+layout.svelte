@@ -32,7 +32,7 @@
     />
 {/if}
 
-<div class="b2t"><a href="#main">back to top</a></div>
+<div class="back-to-top"><a href="#main">back to top</a></div>
 
 <div class="main" id="main">
 

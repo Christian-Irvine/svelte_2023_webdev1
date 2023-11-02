@@ -144,6 +144,16 @@ body {
     padding: 40vh 0;
 }
 
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    z-index: 99;
+}
+
 .header-hide {
     animation-name: header-hide;
     animation-duration: 0.25s;
@@ -258,16 +268,6 @@ header button {
 
 button:hover{
     cursor: pointer;
-}
-
-.b2t {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 20px;
-    background-color: black;
-    color: white;
-    z-index: 99;
 }
 
 @media (max-width: 1200px) {
