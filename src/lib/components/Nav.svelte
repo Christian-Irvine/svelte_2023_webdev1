@@ -25,9 +25,9 @@
         <button class="hamburger-menu"><a on:click={ToggleHamburger}><i class="fa-solid fa-bars"></i></a></button>
     </div>
     <div class="nav-buttons nav-hide">
-        <a href="/craftymcfish"><button class="headerbutton">Crafty</button></a>
-        <a href="/chrissyfresh"><button class="headerbutton">Chrissy</button></a>
-        <a href="/games"><button class="headerbutton">Games</button></a>
-        <a href="/gallery"><button class="headerbutton">Gallery</button></a>
+        <a href="/craftymcfish"><button class="header-button">Crafty</button></a>
+        <a href="/chrissyfresh"><button class="header-button">Chrissy</button></a>
+        <a href="/games"><button class="header-button">Games</button></a>
+        <a href="/gallery"><button class="header-button">Gallery</button></a>
     </div>
 </nav>
