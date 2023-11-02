@@ -21,7 +21,7 @@
     <Article
         heading="Chrissy Fresh";
         text="Chrissy Fresh is my music and personal username on the internet.
-        Primarily the name was for releasing music under, but I also ended up using the name for my acounts with more personal things on them.
+        Primarily the name was for releasing music under, but I also ended up using the name for my accounts with more personal things on them.
         For example my instagram which has pictures of me and what i'm doing."
     />
 </div>
