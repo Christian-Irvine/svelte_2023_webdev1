@@ -19,20 +19,24 @@
     />
 {:else if !firstLoad}
     <Header 
-    fadeClass="header-hide"
+        fadeClass="header-hide"
     />
 {:else if yPos > 0 && firstLoad} 
     <Header 
-    fadeClass="header-hide"
+        fadeClass="header-hide"
     />
     { firstLoad = false }
 {:else}
     <Header 
-    fadeClass=""
+        fadeClass=""
     />
 {/if}
 
-<div class="back-to-top"><a href="#main">back to top</a></div>
+<a href="#main">
+    <div class="back-to-top { firstLoad ? "" : yPos > 0 ? "back-to-top-show" : "back-to-top-hide"}">
+        <i class="fa-solid fa-angle-up"/>
+    </div>
+</a>
 
 <div class="main" id="main">
 
