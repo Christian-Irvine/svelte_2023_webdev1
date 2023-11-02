@@ -7,6 +7,10 @@ body {
     background-color: var(--background-main);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --background-main: #eeeeee;
     --background-secondary: #d4d4d4;
