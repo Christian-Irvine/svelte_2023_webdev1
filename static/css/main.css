@@ -146,13 +146,45 @@ body {
 
 .back-to-top {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 20px;
-    background-color: black;
+    bottom: 100px;
+    padding: 20px 30px 20px 20px;
+    background-color: var(--accent);
     color: white;
     z-index: 99;
+    border-radius: 10px;
 }
+
+.back-to-top-hide {
+    animation-name: back-to-top-hide;
+    animation-duration: 0.15s;
+    right: -80px;
+}
+
+@keyframes back-to-top-hide {
+    0%   {
+        right: -10px;
+    }
+    100% { 
+        right: -80px;
+    }
+}
+
+.back-to-top-show {
+    animation-name: back-to-top-show;
+    animation-duration: 0.2s;
+    right: -10px;
+}
+
+@keyframes back-to-top-show {
+    0%   {
+        right: -80px;
+    }
+    100% { 
+        right: -10px;
+    }
+}
+
+
 
 .header-hide {
     animation-name: header-hide;
@@ -167,7 +199,7 @@ body {
     100% { 
         top: -100px;
     }
-  }
+}
 
 .header-show {
     animation-name: header-show;
@@ -182,7 +214,7 @@ body {
     100% { 
         top: 0;
     }
-  }
+}
 
   header {
     background-color: var(--accent);
