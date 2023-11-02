@@ -4,12 +4,12 @@
 </script>
 
 <div class="title-div">
-    <h1>Me</h1>
+    <h1>Welcome!</h1>
 </div>
 
 <div class="page">
     <Article
-        heading="Hello There!";
+        heading="Hello There";
         text="I am Christian and this website is all about me and my various usernames on the internet. From Chrissy Fresh and my music to CraftyMCFish and my minecraft youtube videos."
     />
 
