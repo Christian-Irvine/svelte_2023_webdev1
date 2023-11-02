@@ -1,6 +1,9 @@
 <script>
     import Header from "$lib/components/Header.svelte";
     import Footer from "$lib/components/Footer.svelte";
+
+    let yPos;
+    let firstLoad = true;
 </script>
 
 <svelte:head>
@@ -10,12 +13,33 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </svelte:head>
 
-<Header />
+{#if yPos <= 0 && !firstLoad}
+    <Header 
+        fadeClass="header-show"
+    />
+{:else if !firstLoad}
+    <Header 
+    fadeClass="header-hide"
+    />
+{:else if yPos > 0 && firstLoad} 
+    <Header 
+    fadeClass="header-hide"
+    />
+    { firstLoad = false }
+{:else}
+    <Header 
+    fadeClass=""
+    />
+{/if}
 
-<div class="main">
+<div class="b2t"><a href="#main">back to top</a></div>
+
+<div class="main" id="main">
 
 <slot />
 
 </div>
 
 <Footer />
+
+<svelte:window bind:scrollY={ yPos }/>

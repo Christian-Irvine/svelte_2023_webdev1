@@ -1,13 +1,18 @@
+<!-- The Chrissy Fresh page about my music and generalised usage of the name -->
+
 <script>
+    // Importing Components that I use on page
     import Article from "$lib/components//Article.svelte";
     import ArticleList from "$lib/components//ArticleList.svelte";
     import ArticleImage from "$lib/components//ArticleImage.svelte";
 </script>
 
+ <!-- Title and white space at top of page -->
 <div class="title-div">
     <h1>Chrissy Fresh</h1>
 </div>
 
+<!-- The page class div to have the contents alternating colour -->
 <div class="page">
     <Article 
         heading="Origins"
