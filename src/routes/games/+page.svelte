@@ -84,7 +84,7 @@
         text="Burgotage! was my second Game Jam entry in the 2023 Game Makers Toolkit Game Jam. The theme was revered roles.
         So I took the concept of Papas burgeria and made it so you are trying to sabotage the burger place. So your own rival one could get all the customers.
         Overall for 48 hours I think it was quite successful and the code was horrible but it did work and I had no plans on continuing it."
-        image="Games/2DFishShooter1.png"
+        image="Games/Burgotage!.png"
     />
 
     <ArticleImage
