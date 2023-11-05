@@ -14,4 +14,8 @@ To run the program first you need to have node packet manager installed. Once th
 
 ## Known Bugs and Future Plans
 
-Currently the only bug I am aware of is with the Fetching from the UnSplash API. Where sometimes instead of two descriptions the images only come with one. Howwever, from my testing the first description will always come with one. So the code functions around that. If it happened to not come with an image. It would cause an error.
+Currently the only bug I am aware of is with the Fetching from the Unsplash API. Where sometimes instead of two descriptions the images only come with one. Howwever, from my testing the first description will always come with one. So the code functions around that. If it happened to not come with an image. It would cause an error.
+
+## Unsplash API 
+
+Thank you to the [Unsplash API](https://unsplash.com/ "unsplash.com") for providing a free API for images on the internet. This projects gallery page relies on them for the fish images provided
