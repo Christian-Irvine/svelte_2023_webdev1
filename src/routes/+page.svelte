@@ -26,6 +26,12 @@
         Primarily the name was for releasing music under, but I also ended up using the name for my accounts with more personal things on them.
         For example my instagram which has pictures of me and what i'm doing."
     />
+
+    <Article
+    heading="Games I've Made";
+    text="I have made a few games over the last year and a half mostly inside of the Unity Engine. 
+    The games consist of silly horror game about James May to serious games about shooting 2D Fish with guns."
+/>
 </div>
 
 
