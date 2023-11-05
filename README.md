@@ -11,3 +11,7 @@ For this project I used the [SvelteKit](https://kit.svelte.dev/ "kit.svelte.dev"
 ## How To Use
 
 To run the program first you need to have node packet manager installed. Once that is done inside of the project folder open a terminal and run the `npm i` command (short for `npm install`). Once it has finished installing to run the dev build you can run the `npm run dev -- --open` command and it will open in your browser. Or if you want to run a build of it run the `npm run build` command.
+
+## Known Bugs and Future Plans
+
+Currently the only bug I am aware of is with the Fetching from the UnSplash API. Where sometimes instead of two descriptions the images only come with one. Howwever, from my testing the first description will always come with one. So the code functions around that. If it happened to not come with an image. It would cause an error.
