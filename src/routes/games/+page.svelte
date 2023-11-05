@@ -100,6 +100,6 @@
         text="2D Fish Shooter 3 is actually quite different from the other two. This time you have a player and have to navigate around caves and the ocean, 
         all still to shoot fish. Currently the only thing that exists is swimming and proceedurall terrain. But over the 2023 summer I intend on making a lot of progress on it.
         Hopefully there isn't a need for a 2D Fish Shooter 4, and maybe a 3D Fish shooter one day."
-        image="Games/2DFishShooter1.png"
+        image="Games/2DFishShooter3.png"
     />
 </div>
