@@ -68,7 +68,7 @@
         text="God Save The Queen was a game I decided to make around the sad demise of The Queen (Rest In Peace).
         You had to get the queen from one side of the map to the other where the Union Jack was without her falling or touching spikes or whatnot by placing things with a limited budget.
         I didn't get very far because I didn't really enjoy making the game too much, and also the code was pretty hard to maintain."
-        image="Games/2DFishShooter1.png"
+        image="Games/GodSaveTheQueen.png"
     />
 
     <ArticleImage
