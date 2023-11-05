@@ -76,7 +76,7 @@
         text="2D Fish Shooter 2 is a lot like the first 2D Fish Shooter except I was slightly better at programming it when I started in 2023. 
         This version got a lot further with a boss, a shop system, cooler animations, better pixel art, even health on the fish, different guns e.t.c. 
         The issue is after developing it for 6 months I once again got a lot better at programming and realised how the system wasn't great to maintain so moved on again."
-        image="Games/2DFishShooter1.png"
+        image="Games/2DFishShooter2.png"
     />
 
     <ArticleImage
