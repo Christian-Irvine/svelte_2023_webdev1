@@ -92,7 +92,7 @@
         text="I never named it but I started working on a town building simulator game where the twist was it was first person.
         The hope was that it would feel more grounded and that you were the mayor rather than some god placing buildings from the sky.
         I never really got far as the scale of the project was absolutely massive and I got burned out within a couple weeks with what felt like little progress."
-        image="Games/2DFishShooter1.png"
+        image="Games/TownGame.png"
     />
 
     <ArticleImage
