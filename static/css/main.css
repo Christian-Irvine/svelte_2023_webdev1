@@ -134,7 +134,7 @@ html {
     background-position: center;
 }
 
-/* This controls the alternating image and text size in the gallery */
+/* This section controls the alternating image and text size in the gallery */
 .gallery > div:nth-of-type(even) > div:nth-child(2) {
     order: -1; 
 } 
@@ -143,11 +143,13 @@ html {
     text-align: right;
 }
 
+/* Sets hamburger menu to not display until the display is in phone size */
 .hamburger-menu {
     display: none;
     width: 100px;
 }
 
+/* Sets the nav buttons to display horizontally and colours them */
 .nav-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -155,7 +157,9 @@ html {
 }
 
 .title-div {
-    padding: 40vh 0;
+    height: 100vh;
+    display: grid;
+	align-items: center;
 }
 
 .back-to-top {
