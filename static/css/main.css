@@ -44,9 +44,10 @@ html {
     border: 0;
 }
 
+/* Sets the icons in the footer to display horizontally */
 .icons-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    margin-right: 10px;
 }
 
 .icons-footer * i {
