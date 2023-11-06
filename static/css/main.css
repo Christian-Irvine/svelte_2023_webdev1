@@ -50,6 +50,7 @@ html {
     margin-right: 10px;
 }
 
+/* Styles the icons inside of the footer */
 .icons-footer * i {
     font-size: 60px;
     margin: auto;
@@ -62,11 +63,13 @@ html {
     cursor: pointer;
 }
 
+/* Sets the icon in the header to display on the right */
 .icon-header {
     display: flex;
     flex-direction: row-reverse;
 }
 
+/* Styles the hamburger menu button in header */
 .icon-header * i {
     font-size: 60px;
     margin: auto;
@@ -75,6 +78,7 @@ html {
     color: var(--icons);
 }
 
+/* This section sets the size of the divs in the main page and sets the alternating colour of them */
 .page > div {
     padding: 60px 350px;
 }
@@ -86,6 +90,7 @@ html {
 .page > div:nth-of-type(odd) {
     background-color: var(--background-secondary);
 }
+
 
 .button {
     text-align: center;
