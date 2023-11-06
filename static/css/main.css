@@ -91,7 +91,7 @@ html {
     background-color: var(--background-secondary);
 }
 
-
+/* This is for styling the buttons in in the nav and hamburger */
 .button {
     text-align: center;
     background-color: var(--accent);
@@ -104,17 +104,20 @@ html {
     position: 50%;
 }
 
+/* This section styles the ArticleImage and APIImage components */
 .image-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+/* This is for the ArticleImage */
 .article-image{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 20px;
     background-position: center;
     aspect-ratio: 16 / 9;
+    width: 30vw;
 }
 
 .image-flex {
@@ -122,6 +125,7 @@ html {
     flex-direction: column;
 }
 
+/* This is for the API images */
 .gallery-image {
     height: 300px;
     background-size: cover;
@@ -130,6 +134,7 @@ html {
     background-position: center;
 }
 
+/* This controls the alternating image and text size in the gallery */
 .gallery > div:nth-of-type(even) > div:nth-child(2) {
     order: -1; 
 } 
@@ -360,8 +365,7 @@ button:hover{
     }
 
     .article-image{
-        width: 100%;
-        height: 50vh;
+        width: 80vw;
         margin-bottom: 50px;
     }
 }
