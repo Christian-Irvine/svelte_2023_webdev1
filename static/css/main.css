@@ -321,6 +321,10 @@ button:hover{
     .hamburger-menu {
         display: block;
     }
+
+    .header-button {
+        height: 75px;
+    }
     
     h1 {
         padding: 37vh 0;
