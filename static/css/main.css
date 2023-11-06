@@ -156,12 +156,14 @@ html {
     background-color: var(--accent);
 }
 
+/* This sets the title div to be the height of the screen and centers the text in it */
 .title-div {
     height: 100vh;
     display: grid;
 	align-items: center;
 }
 
+/* Styles the back to top button */
 .back-to-top {
     position: fixed;
     right: -80px;
@@ -173,6 +175,7 @@ html {
     border-radius: 10px;
 }
 
+/* This is the animations and classes for hiding and showing the back to top button*/
 .back-to-top-hide {
     animation-name: back-to-top-hide;
     animation-duration: 0.2s;
@@ -203,6 +206,7 @@ html {
     }
 }
 
+/* This is the animations and classes for hiding and showing the header */
 .header-hide {
     animation-name: header-hide;
     animation-duration: 0.25s;
@@ -233,6 +237,7 @@ html {
     }
 }
 
+/* This is the styling for the header component */
 header {
     background-color: var(--accent);
     height: 100px;
