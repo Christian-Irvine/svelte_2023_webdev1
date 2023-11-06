@@ -24,12 +24,6 @@ html {
     --icons: white;
 }
 
-.border {
-    border: 12px;
-    border-style: outset;
-    border-color: var(--accent);
-}
-
 .youtube {
     aspect-ratio: 16 / 9;
 }
