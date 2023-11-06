@@ -2,15 +2,18 @@
     box-sizing: border-box;
 }
 
+/* The base body for removing the base margin */
 body {
     margin: 0;
     background-color: var(--background-main);
 }
 
+/* Making the scroll glide to wherever when linking to a part of the page */
 html {
     scroll-behavior: smooth;
 }
 
+/* Setting up CSS Variables for all my colours */
 :root {
     --background-main: #eeeeee;
     --background-secondary: #d4d4d4;
@@ -144,6 +147,7 @@ html {
 .nav-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--accent);
 }
 
 .title-div {
@@ -221,7 +225,7 @@ html {
     }
 }
 
-  header {
+header {
     background-color: var(--accent);
     height: 100px;
     margin-bottom: 40px;
@@ -307,6 +311,7 @@ button:hover{
     cursor: pointer;
 }
 
+/* This is where the screen turns to more of a tablet size */
 @media (max-width: 1200px) {
     .page{
         padding: 0px;
@@ -318,14 +323,19 @@ button:hover{
     }
 }
 
-@media (max-width: 950px) {
-    /*This is also where it will turn menu into drop down burger menu thing :) (below is my first attempt but you need some javascript my man kachow*/
+/* This is where the screen turns to phone size */
+@media (max-width: 1080px) {
     .hamburger-menu {
         display: block;
     }
 
     .header-button {
         height: 75px;
+    }
+
+    .nav-buttons {
+        padding: 10px;
+        border-radius: 0 0 0 10px;
     }
     
     h1 {
