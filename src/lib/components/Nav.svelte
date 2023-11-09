@@ -5,7 +5,7 @@
 
     let hamburgerActive = false;
 
-    // This hides and shows the hamburger menu depending on its current state
+    // Toggles the the hamburgerActive bool
     let ToggleHamburger = () => {
         hamburgerActive = !hamburgerActive;
     }
@@ -16,6 +16,7 @@
         <!-- Calls the ToggleHamburger method when the hamburger button is clicked -->
         <button class="hamburger-menu"><a on:click={ToggleHamburger}><i class="fa-solid fa-bars"></i></a></button>
     </div>
+    <!-- Displays the buttons to navigate the pages -->
     <div class={!hamburgerActive ? "nav-buttons nav-hide" : "nav-buttons" }>
         <a href="/craftymcfish"><button class="header-button">Crafty</button></a>
         <a href="/chrissyfresh"><button class="header-button">Chrissy</button></a>
