@@ -14,12 +14,15 @@
 
 <!-- The page class div to have the contents alternating colour -->
 <div class="page">
+
+    <!-- Intro paragraph about what the name is -->
     <Article 
         heading="Origins"
         text="Chrissy Fresh started as the name I posted music under. And eventually became a name I went by online, for more personal things. 
         For example my Instagram is called chrissy_fresh even though very little of what I post on there is about music. Its it just my online username for non gaming related things."
     />
 
+    <!-- A list of chrissy fresh songs -->
     <ArticleList 
         heading="Classic Chrissy Fresh Songs" 
         items = {[
@@ -29,6 +32,7 @@
         ]}
     />
 
+    <!-- Info about Luv Or Somethin' -->
     <ArticleImage
         heading="Luv or Somethin'" 
         text="Luv or Somethin' was my first song I released for Valentines Day in 2020 (even if it was a few days late). It was created within a week with me writing the lyrics,
@@ -37,6 +41,7 @@
         image="ChrissyFresh/LuvOrSomethin.png"
     />
 
+    <!-- Info about All I Want For Fortmas Is Vbucks -->
     <ArticleImage 
         heading="All I Want For Fortmas Is Vbucks" 
         text="My second song which I don't like to talk about is a Fortnite parody of the classic song ''All I Want For Christmas Is You'''. 
@@ -45,6 +50,7 @@
         image="ChrissyFresh/AllIWantForFortmasIsVbucks.jpg"
     />
 
+    <!-- Into about Empty House With An Open Door -->
     <ArticleImage 
         heading="Empty House With An Open Door" 
         text="This song I wrote in 2022, when I was getting slightly better at guitaring. Its a very deep song about love and loss. And 100% fictional which makes it very funny.
