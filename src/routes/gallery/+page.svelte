@@ -36,8 +36,8 @@
 <div class="page gallery">
     
     <Article
-        heading="Some images";
-        text={ headingText };
+        heading="Some Images";
+        text={ headingText }
     />
     <!-- Puts all of the images on the page from the API -->
     {#each results as result}
