@@ -1,30 +1,22 @@
+<!-- The Nav component sits inside of the header, it holds all of the buttons and the 'ME' text -->
+
 <script>
     import { onMount } from 'svelte';
 
-    let buttonDiv;
     let hamburgerActive = false;
 
-    onMount(() => {
-        buttonDiv = document.getElementsByClassName("nav-buttons")[0];
-        console.log(buttonDiv);
-    });
-
+    // This hides and shows the hamburger menu depending on its current state
     let ToggleHamburger = () => {
         hamburgerActive = !hamburgerActive;
-        if (hamburgerActive) {
-            buttonDiv.classList.remove("nav-hide");
-        }
-        else {
-            buttonDiv.classList.add("nav-hide");
-        }
     }
 </script>
 
 <nav>
     <div class="icon-header">
+        <!-- Calls the ToggleHamburger method when the hamburger button is clicked -->
         <button class="hamburger-menu"><a on:click={ToggleHamburger}><i class="fa-solid fa-bars"></i></a></button>
     </div>
-    <div class="nav-buttons nav-hide">
+    <div class={!hamburgerActive ? "nav-buttons nav-hide" : "nav-buttons" }>
         <a href="/craftymcfish"><button class="header-button">Crafty</button></a>
         <a href="/chrissyfresh"><button class="header-button">Chrissy</button></a>
         <a href="/games"><button class="header-button">Games</button></a>
