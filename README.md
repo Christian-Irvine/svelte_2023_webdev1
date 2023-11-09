@@ -19,3 +19,7 @@ Currently the only bug I am aware of is with the Fetching from the Unsplash API.
 ## Unsplash API 
 
 Thank you to the [Unsplash API](https://unsplash.com/ "unsplash.com") for providing a free API for images on the internet. This projects gallery page relies on them for the fish images provided
+
+## Design Document
+[Link](https://github.com/Christian-Irvine/svelte_2023_webdev1/blob/master/DESIGN.md)
+This is a link to the design document of where I got inspiration from for my website.
