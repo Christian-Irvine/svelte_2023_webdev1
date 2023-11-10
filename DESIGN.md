@@ -1,4 +1,4 @@
-# Design Document
+![image](https://github.com/Christian-Irvine/svelte_2023_webdev1/assets/129133402/bb92473b-8cc1-4b9b-8581-0a501e9584d1)# Design Document
 
 ## Satisfactory Website
 [Link](https://www.satisfactorygame.com/)
@@ -73,8 +73,37 @@ Thirdly I also used logos in my footer. These link to my social media pages and 
 ![image](https://github.com/Christian-Irvine/svelte_2023_webdev1/assets/129133402/fe4eea2d-75a6-4db5-b397-bdd45ceb4061)
 
 
+## Moodle
+[Link](https://moodle.op.ac.nz/course/view.php?id=8194)
+
+Thirdly the site I took a little bit of inspiration from is Moodle (specifically when on a course page). I chose this site because I go there a lot and like a couple of things on it. The header and the buttons on the sides, plus it scrolls and holds lots of word style info like my site so it felt fitting.
+
+![image](https://github.com/Christian-Irvine/svelte_2023_webdev1/assets/129133402/1a181618-d70f-441b-82db-c9010af51c22)
 
 
+### Design Principles 
 
+The first design principle is the header. It is a nice plain green with the logo in the top left and the navbar beside it. Its very simplistic and does exactly what it is supposed to do.
+
+![image](https://github.com/Christian-Irvine/svelte_2023_webdev1/assets/129133402/973532cc-bafd-4e04-89f4-bf8a3de978c4)
+
+The second is the colouring. I like the white and offwhite colours for differentiating between the different buttons, and it is clear where you can and cannot click on something based purely on the darker white.
+
+![image](https://github.com/Christian-Irvine/svelte_2023_webdev1/assets/129133402/e8208281-b237-4e9a-a32c-be3b397297ab)
+
+Third is the buttons on the sides. There are buttons on the left and right that pop out when you hover over them to access more information on pop out tabs on the sides. They are very clean and their little animation of them popping out is a clear indicator to the user that you can click on it.
+
+![image](https://github.com/Christian-Irvine/svelte_2023_webdev1/assets/129133402/d6ac16a5-e146-4851-a3e9-53f19bedd572)
+
+
+### Incorporating
+
+I took inspiration from the first and third elements in this one in some way. Firstly the header is similar to my one in the end. It has one main colour with the logo/"ME text" on the left and then its nav bar. Mine is on the right but it is still plain text and highlights when hovered over
+
+![image](https://github.com/Christian-Irvine/svelte_2023_webdev1/assets/129133402/7628fd0a-a5cd-4863-9f80-faa8886c6cd7)
+
+The second thing I took inspiration from is the buttons that stick out. Though mine doesn't do the exact same thing this is where the idea came from. When scrolling down the page as long as you aren't at the top of the page the little button to go back to the top pops out the side at the bottom right. It animates out like the one on Moodle and animates back in when you are at the top again.
+
+![image](https://github.com/Christian-Irvine/svelte_2023_webdev1/assets/129133402/88eb44ae-bd63-473b-bd45-e34547547ce5)
 
 
