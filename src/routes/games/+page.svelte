@@ -14,6 +14,7 @@
 
 <!-- The page class div to have the contents alternating colour -->
 <div class="page">
+    <!-- Intro paragrah to explain how I got into games -->
     <Article 
         heading="Games I've Made"
         text="Though I have never finished a game ive worked on, a few of them have come quite far and slowly over time they have increased in quality.
@@ -22,7 +23,7 @@
         From that I discovered making games is something I would love to do as a career and is something I hope to do."
     />
     
-    <!-- Article List takes array of strings to display list items -->
+    <!-- A List of all the games I have made or started making -->
     <ArticleList 
         heading="Games I've Tried Making"
         items={[
@@ -37,6 +38,7 @@
         ]}    
     />
 
+    <!-- Info on My first game Hosipital Hands my first game jam game -->
     <ArticleImage
         heading="Hospital Hands"
         text="Hospital Hands was the first game I had a hand in making and is the game my group made at the 2022 Polytech Game Jam.
@@ -46,6 +48,7 @@
         image="Games/HospitalHands.png"
     />
 
+    <!-- Info on the original 2D Fish Shooter game -->
     <ArticleImage
         heading="2D Fish Shooter"
         text="2D Fish Shooter is a basic 2D game where your mouse controls a gun and you have to click (shoot) fish as they swim past. 
@@ -55,6 +58,7 @@
         image="Games/2DFishShooter1.png"
     />
 
+    <!-- Info on James May The Eight Cheeses -->
     <ArticleImage
         heading="James May The Eight Cheeses"
         text="James May The Eight Cheeses is a game very similar to Slender The Eight Pages, except instead of slenderman its James May and instead of pages its cheese.
@@ -63,6 +67,7 @@
         image="Games/JamesMay.png"
     />
 
+    <!-- Info on God Save The Queen -->
     <ArticleImage
         heading="God Save The Queen"
         text="God Save The Queen was a game I decided to make around the sad demise of The Queen (Rest In Peace).
@@ -71,6 +76,7 @@
         image="Games/GodSaveTheQueen.png"
     />
 
+    <!-- Info on 2D Fish Shooter 2 -->
     <ArticleImage
         heading="2D Fish Shooter 2"
         text="2D Fish Shooter 2 is a lot like the first 2D Fish Shooter except I was slightly better at programming it when I started in 2023. 
@@ -79,6 +85,7 @@
         image="Games/2DFishShooter2.png"
     />
 
+    <!-- Info on Burgotage my second game jam game -->
     <ArticleImage
         heading="Burgotage!"
         text="Burgotage! was my second Game Jam entry in the 2023 Game Makers Toolkit Game Jam. The theme was revered roles.
@@ -87,6 +94,7 @@
         image="Games/Burgotage!.png"
     />
 
+    <!-- Info on my town simulator game -->
     <ArticleImage
         heading="Untitled Town Game"
         text="I never named it but I started working on a town building simulator game where the twist was it was first person.
@@ -95,6 +103,7 @@
         image="Games/TownGame.png"
     />
 
+    <!-- Info on 2D Fish Shooter 3 (Work in progress game) -->
     <ArticleImage
         heading="2D Fish Shooter 3"
         text="2D Fish Shooter 3 is actually quite different from the other two. This time you have a player and have to navigate around caves and the ocean, 
