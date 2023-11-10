@@ -1,4 +1,4 @@
-![image](https://github.com/Christian-Irvine/svelte_2023_webdev1/assets/129133402/bb92473b-8cc1-4b9b-8581-0a501e9584d1)# Design Document
+# Design Document
 
 ## Satisfactory Website
 [Link](https://www.satisfactorygame.com/)
